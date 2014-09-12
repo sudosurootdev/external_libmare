@@ -1,0 +1,37 @@
+diff --git a/include/CL/cl.hpp b/include/CL/cl.hpp
+index 0480e31..5681d12 100644
+--- a/include/OpenCL/cl.hpp
++++ b/include/OpenCL/cl.hpp
+@@ -172,6 +172,10 @@
+ #include <OpenGL/OpenGL.h>
+ #include <OpenCL/opencl.h>
+ #include <libkern/OSAtomic.h>
++#elif defined(__ANDROID__)
++#include <GLES/gl.h>
++#include <CL/opencl.h>
++#include <alloca.h>
+ #else
+ #include <GL/gl.h>
+ #include <CL/opencl.h>
+@@ -1037,7 +1041,11 @@ namespace detail {
+ #endif // !_WIN32
+     }
+ 
+-    inline void fence() { _mm_mfence(); }
++#if defined(__arm__)
++    inline void fence() { __asm__ __volatile__("dmb":::"memory"); }
++#else
++     inline void fence() { _mm_mfence(); }
++#endif // __arm__
+ }; // namespace detail
+ 
+     
+@@ -1541,7 +1549,7 @@ template<typename T>
+ struct ReferenceHandler
+ { };
+ 
+-#if defined(CL_VERSION_1_2)
++#if defined(__APPLE__) || defined(__MACOSX) || defined(__ANDROID__) || defined(HAVE_CLRETAINDEVICE)
+ /**
+  * OpenCL 1.2 devices do have retain/release.
+  */

@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>org.doxygen.Project</namespace>
+  <virtualFolder>doc</virtualFolder>
+  <filterSection>
+    <filterAttribute>doxygen</filterAttribute>
+    <toc>
+      <section title="Multicore Asynchronous Runtime Environment HT80-NG608-1 E" ref="index.html">
+        <section title="Revision History" ref="revision_history.html" />
+        <section title="Introduction" ref="introduction.html" />
+        <section title="Getting Started" ref="usergroup0.html">
+          <section title="Installation" ref="binaries.html" />
+          <section title="First Steps" ref="getstarted.html" />
+        </section>
+        <section title="User Guide" ref="usergroup1.html">
+          <section title="Overview" ref="userguide.html#overview" />
+          <section title="Patterns" ref="usergroup2.html">
+            <section title="Parallel Patterns" ref="patterns.html" />
+            <section title="Synchronous Data-Flow" ref="sdf.html" />
+          </section>
+          <section title="Tasks" ref="tasks.html" />
+          <section title="Groups" ref="groups.html" />
+          <section title="Interoperability" ref="issues.html" />
+        </section>
+        <section title="Tutorials" ref="usergroup3.html">
+          <section title="Parallel Programming" ref="pp.html" />
+          <section title="Image Processing" ref="ip.html" />
+        </section>
+        <section title="Reference Manual" ref="usergroup4.html">
+          <section title="Initialization and Shutdown Reference API" ref="group__chapter__init__doc.html">
+            <section title="Init and shutdown" ref="group__init__shutdown.html" />
+            <section title="Interoperability" ref="group__interop.html" />
+          </section>
+          <section title="Patterns Reference API" ref="group__chapter__patterns__doc.html">
+            <section title="Patterns" ref="group__patterns__doc.html" />
+          </section>
+          <section title="Tasks Reference API" ref="group__chapter__tasks__doc.html">
+            <section title="Task Objects" ref="group__tasks__doc.html" />
+            <section title="Creation" ref="group__tasks__creation.html" />
+            <section title="Execution" ref="group__execution.html" />
+            <section title="Dependencies" ref="group__dependencies.html" />
+            <section title="Grouping" ref="group__grouping.html" />
+            <section title="Synchronization" ref="group__sync.html" />
+            <section title="Cancelation" ref="group__tasks__cancelation.html" />
+            <section title="Attributes" ref="group__attributes.html" />
+          </section>
+          <section title="Groups Reference API" ref="group__chapter__groups__doc.html">
+            <section title="Group Objects" ref="group__groups__doc.html" />
+            <section title="Creation" ref="group__groups__creation.html" />
+            <section title="Waiting" ref="group__groups__waiting.html" />
+            <section title="Cancelation" ref="group__groups__cancel.html" />
+          </section>
+          <section title="Power Management API" ref="group__chapter__power__doc.html">
+            <section title="Static Power Management" ref="group__static__power__doc.html" />
+            <section title="Dynamic Power Management" ref="group__dynamic__power__doc.html" />
+          </section>
+          <section title="Heterogeneous Compute API" ref="group__chapter__heterogeneous__compute__doc.html">
+            <section title="Buffers" ref="heterogeneous_compute.html#buffers_doc" />
+          </section>
+          <section title="Data Structures" ref="group__chapter__data__structures.html">
+            <section title="Concurrent Obstruction-Free DQueue" ref="group__cof__deque.html" />
+            <section title="Concurrent Obstruction-Free Queue" ref="group__cof__queue.html" />
+            <section title="Concurrent Obstruction-Free Stack" ref="group__cof__stack.html" />
+          </section>
+          <section title="Data Sharing" ref="usergroup5.html">
+            <section title="Task Storage" ref="group__task__storage.html" />
+            <section title="Scoped Storage" ref="group__scoped__storage.html" />
+            <section title="Scheduler Storage" ref="group__scheduler__storage.html" />
+            <section title="Thread Storage" ref="group__thread__storage.html" />
+          </section>
+          <section title="Exceptions Reference API" ref="usergroup6.html">
+            <section title="Exceptions" ref="group__exceptions.html" />
+          </section>
+        </section>
+      </section>
+    </toc>
+    <keywords>
+      <keyword name="Revision History" id="Revision History" ref="revision_history.html" />
+      <keyword name="Introduction" id="Introduction" ref="introduction.html" />
+      <keyword name="Installing MARE" id="Installing MARE" ref="binaries.html" />
+      <keyword name="Getting Started" id="Getting Started" ref="getstarted.html" />
+      <keyword name="User Guide" id="User Guide" ref="userguide.html" />
+      <keyword name="Tasks" id="Tasks" ref="tasks.html" />
+      <keyword name="Groups" id="Groups" ref="groups.html" />
+      <keyword name="Interoperability" id="Interoperability" ref="issues.html" />
+      <keyword name="Parallel Programming Patterns" id="Parallel Programming Patterns" ref="patterns.html" />
+      <keyword name="Parallel Processing Tutorial" id="Parallel Processing Tutorial" ref="pp.html" />
+      <keyword name="Image Processing Tutorial" id="Image Processing Tutorial" ref="ip.html" />
+      <keyword name="Synchronous Data-Flow (SDF)" id="Synchronous Data-Flow (SDF)" ref="sdf.html" />
+      <keyword name="Heterogeneous Compute  Overview" id="Heterogeneous Compute  Overview" ref="heterogeneous_compute.html" />
+      <keyword name="Bibliographic References" id="Bibliographic References" ref="citelist.html" />
+      <keyword name="Init and Shutdown Reference API" id="Init and Shutdown Reference API" ref="group__chapter__init__doc.html" />
+      <keyword name="Init and shutdown" id="Init and shutdown" ref="group__init__shutdown.html" />
+      <keyword name="init" id="init_shutdown::init" ref="group__init__shutdown.html#gac85658f566f4b5b1f17b9d81fe14a508" />
+      <keyword name="shutdown" id="init_shutdown::shutdown" ref="group__init__shutdown.html#ga9876b6a82a27555a8f3affe7f7aa8c4c" />
+      <keyword name="Interoperability" id="Interoperability" ref="group__interop.html" />
+      <keyword name="callback_t" id="interop::callback_t" ref="group__interop.html#ga5548c2e0d2ef4873439a54f0ba07ee4b" />
+      <keyword name="set_thread_created_callback" id="interop::set_thread_created_callback" ref="group__interop.html#ga63d73ee63ef49a26a1a1dd915e53b8ca" />
+      <keyword name="set_thread_destroyed_callback" id="interop::set_thread_destroyed_callback" ref="group__interop.html#ga62fa0897d231c2e6f2201ea0c391bf9d" />
+      <keyword name="thread_created_callback" id="interop::thread_created_callback" ref="group__interop.html#ga1161712c1b3905354833724b8047201b" />
+      <keyword name="thread_destroyed_callback" id="interop::thread_destroyed_callback" ref="group__interop.html#gafe44878d81def37c00b9bb720bb0e77a" />
+      <keyword name="Patterns Reference API" id="Patterns Reference API" ref="group__chapter__patterns__doc.html" />
+      <keyword name="Patterns" id="Patterns" ref="group__patterns__doc.html" />
+      <keyword name="pfor_each_async" id="patterns_doc::pfor_each_async" ref="group__patterns__doc.html#gae7a6eadac0401497f58159958e883bb8" />
+      <keyword name="pfor_each_async" id="patterns_doc::pfor_each_async" ref="group__patterns__doc.html#ga96d20cd17d7860b96a8c029d57714407" />
+      <keyword name="pfor_each" id="patterns_doc::pfor_each" ref="group__patterns__doc.html#gaf84e153297a669ed74acbed259fa8cd6" />
+      <keyword name="pfor_each" id="patterns_doc::pfor_each" ref="group__patterns__doc.html#ga9cd09370ce0af112dd3cb7e65162dbdb" />
+      <keyword name="pfor_each" id="patterns_doc::pfor_each" ref="group__patterns__doc.html#ga4a6fc0461681d958b7aa2d61b9d74e8b" />
+      <keyword name="pfor_each" id="patterns_doc::pfor_each" ref="group__patterns__doc.html#gaae9cda43766e241597c512009fc85e3c" />
+      <keyword name="ptransform" id="patterns_doc::ptransform" ref="group__patterns__doc.html#ga8f111ceddcccf201d501321b7b903f44" />
+      <keyword name="ptransform" id="patterns_doc::ptransform" ref="group__patterns__doc.html#ga74339f59e081964e9183fecaf25ca965" />
+      <keyword name="ptransform" id="patterns_doc::ptransform" ref="group__patterns__doc.html#gaec36f555de008df5f09ed35422e64de8" />
+      <keyword name="ptransform" id="patterns_doc::ptransform" ref="group__patterns__doc.html#ga70feb8c80bc52adcc998f62e6b0cd846" />
+      <keyword name="ptransform" id="patterns_doc::ptransform" ref="group__patterns__doc.html#ga82c0d3d2324c02d1ffecbb6d95038979" />
+      <keyword name="ptransform" id="patterns_doc::ptransform" ref="group__patterns__doc.html#gac7c63421790af70e302f1a0117d0ec91" />
+      <keyword name="pscan_inclusive" id="patterns_doc::pscan_inclusive" ref="group__patterns__doc.html#ga4e21a34b1d45ee24c248d1b8229a983e" />
+      <keyword name="pscan_inclusive" id="patterns_doc::pscan_inclusive" ref="group__patterns__doc.html#ga0c982fbccc7e8dc068d0f74eff988276" />
+      <keyword name="Synchronous Dataflow" id="Synchronous Dataflow" ref="group__sdf__doc.html" />
+      <keyword name="tuple_dir_channel" id="sdf_doc::tuple_dir_channel" ref="group__sdf__doc.html#ga25383b6ec53acd5ad739f159cd85863f" />
+      <keyword name="preload_channel" id="sdf_doc::preload_channel" ref="group__sdf__doc.html#ga87ae4b477aa7816a538450bae55ed297" />
+      <keyword name="create_sdf_graph" id="sdf_doc::create_sdf_graph" ref="group__sdf__doc.html#ga9d04a6f4b558cbc80fe9cd54aa5e6dbf" />
+      <keyword name="destroy_sdf_graph" id="sdf_doc::destroy_sdf_graph" ref="group__sdf__doc.html#ga575be6357d0a6eff6570efa0b0ba2cf3" />
+      <keyword name="with_inputs" id="sdf_doc::with_inputs" ref="group__sdf__doc.html#ga2edf34ad1ff554c95ca3f25e74e42382" />
+      <keyword name="with_outputs" id="sdf_doc::with_outputs" ref="group__sdf__doc.html#gaaa206ac31609f470885c041d223bb179" />
+      <keyword name="create_sdf_node" id="sdf_doc::create_sdf_node" ref="group__sdf__doc.html#gadba8cd1885e057f08a82c0cc6f5f8f5a" />
+      <keyword name="assign_cost" id="sdf_doc::assign_cost" ref="group__sdf__doc.html#gafb99ad11bf97101d95e5f794cad60881" />
+      <keyword name="get_graph_ptr" id="sdf_doc::get_graph_ptr" ref="group__sdf__doc.html#ga41492c16474885aaf1689d8d1976abd0" />
+      <keyword name="get_debug_id" id="sdf_doc::get_debug_id" ref="group__sdf__doc.html#gac9e3b36c636e8afd1ba7788a49a37592" />
+      <keyword name="launch_and_wait" id="sdf_doc::launch_and_wait" ref="group__sdf__doc.html#gacf9359313b799b03561c860d41b1ba7c" />
+      <keyword name="launch_and_wait" id="sdf_doc::launch_and_wait" ref="group__sdf__doc.html#ga7abec4f4cc3e3a5ab503ccbf230c9914" />
+      <keyword name="launch" id="sdf_doc::launch" ref="group__sdf__doc.html#gaf6d88ec9965da7eaa9da60ab7c27041b" />
+      <keyword name="launch" id="sdf_doc::launch" ref="group__sdf__doc.html#ga482b1499e18d1207b414eac4de554a4f" />
+      <keyword name="wait_for" id="sdf_doc::wait_for" ref="group__sdf__doc.html#ga85399a8348917a0a0bb47d40bc5fd069" />
+      <keyword name="cancel" id="sdf_doc::cancel" ref="group__sdf__doc.html#gaa2d8af997cd2133796de15818de3c506" />
+      <keyword name="cancel" id="sdf_doc::cancel" ref="group__sdf__doc.html#ga9022fc00d748993ffd3f6a951b1a493b" />
+      <keyword name="pause" id="sdf_doc::pause" ref="group__sdf__doc.html#ga7e722f0ab6dd94c7352bd26e7652c4b4" />
+      <keyword name="pause" id="sdf_doc::pause" ref="group__sdf__doc.html#ga5508552d0d90d864f48e8ec418b44a8d" />
+      <keyword name="resume" id="sdf_doc::resume" ref="group__sdf__doc.html#ga4bb43e41f6c48947337241f6e3f9ecc7" />
+      <keyword name="sdf_graph_query" id="sdf_doc::sdf_graph_query" ref="group__sdf__doc.html#gae8679478ca1506a6c96b5953b3b64a20" />
+      <keyword name="to_string" id="sdf_doc::to_string" ref="group__sdf__doc.html#gaef753b805cc7e71c8926d9c730e80657" />
+      <keyword name="operator&lt;&lt;" id="sdf_doc::operator&lt;&lt;" ref="group__sdf__doc.html#ga56a79ddb2b738544bd3e09bef58dcaf9" />
+      <keyword name="as_in_channel_tuple" id="sdf_doc::as_in_channel_tuple" ref="group__sdf__doc.html#gaf0276f6027b29e74dfa7826864792bf7" />
+      <keyword name="as_out_channel_tuple" id="sdf_doc::as_out_channel_tuple" ref="group__sdf__doc.html#gaf11ee6c728ca9ebc43e620cbecdd5485" />
+      <keyword name="create_sdf_node" id="sdf_doc::create_sdf_node" ref="group__sdf__doc.html#ga7ed796590ccbf20e02c99a4ca6af9fdc" />
+      <keyword name="create_sdf_node" id="sdf_doc::create_sdf_node" ref="group__sdf__doc.html#ga873b621dfc5a63fd354cef670e7464b5" />
+      <keyword name="get_elem_size" id="mare::channel::get_elem_size" ref="group__sdf__doc.html#a05621779077b105b5724663ad1f808a5" />
+      <keyword name="channel" id="mare::channel::channel" ref="group__sdf__doc.html#a47784423741ae8681211dfb108c85466" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::channel::MARE_DELETE_METHOD" ref="group__sdf__doc.html#a6bf2f4aeae44375b487ce1fe7c79eb60" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::channel::MARE_DELETE_METHOD" ref="group__sdf__doc.html#a0ecc9e229ff7c3f80500be55147ba43e" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::channel::MARE_DELETE_METHOD" ref="group__sdf__doc.html#a39c7fc362f2ca75d778f33ddaf8f98cd" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::channel::MARE_DELETE_METHOD" ref="group__sdf__doc.html#a4fb35f465964c306486576ff626c80b8" />
+      <keyword name="_cir" id="mare::channel::_cir" ref="group__sdf__doc.html#a4968b24e7cd758f792bcc536e6e02679" />
+      <keyword name="internal::channel_accessor" id="mare::channel::internal::channel_accessor" ref="group__sdf__doc.html#a80512fc9f94a7c39a122111dc9dbb4a1" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::data_channel::MARE_DELETE_METHOD" ref="group__sdf__doc.html#a6a6e00fca9e84e9186d182899fe4133c" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::data_channel::MARE_DELETE_METHOD" ref="group__sdf__doc.html#a39449b57dc4a10b5275fed53c18dda47" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::data_channel::MARE_DELETE_METHOD" ref="group__sdf__doc.html#a277ac98359338d113c9386b2d31cd470" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::data_channel::MARE_DELETE_METHOD" ref="group__sdf__doc.html#a102ecd8a6925a342735e40c2f07a2ea5" />
+      <keyword name="get_elem_size" id="mare::channel::get_elem_size" ref="group__sdf__doc.html#a05621779077b105b5724663ad1f808a5" />
+      <keyword name="channel" id="mare::channel::channel" ref="group__sdf__doc.html#a47784423741ae8681211dfb108c85466" />
+      <keyword name="was_launched" id="mare::sdf_graph_query_info::was_launched" ref="group__sdf__doc.html#ad6734ca9b6962775bcee5521bc376e84" />
+      <keyword name="has_completed" id="mare::sdf_graph_query_info::has_completed" ref="group__sdf__doc.html#a3e5418d595ffa8584adff4c786224452" />
+      <keyword name="is_paused" id="mare::sdf_graph_query_info::is_paused" ref="group__sdf__doc.html#aec655fd2b14fd17d83dbd67c43fb024b" />
+      <keyword name="current_min_iteration" id="mare::sdf_graph_query_info::current_min_iteration" ref="group__sdf__doc.html#a7696c6b537cd850c9a3a6763561504db" />
+      <keyword name="current_max_iteration" id="mare::sdf_graph_query_info::current_max_iteration" ref="group__sdf__doc.html#a21bcc3455c9805e71a7244231191b049" />
+      <keyword name="intr_type" id="mare::sdf_graph_query_info::intr_type" ref="group__sdf__doc.html#a273d6319b4fbb0947bcc2a6a9ff863e5" />
+      <keyword name="_was_launched" id="mare::sdf_graph_query_info::_was_launched" ref="group__sdf__doc.html#a71d38976b98fa05dc0dc72607b059460" />
+      <keyword name="_has_completed" id="mare::sdf_graph_query_info::_has_completed" ref="group__sdf__doc.html#aac6ae41384bbee8606598616309c637c" />
+      <keyword name="_is_paused" id="mare::sdf_graph_query_info::_is_paused" ref="group__sdf__doc.html#a03d8d893668dcf11a7e469d4ca0dec66" />
+      <keyword name="_current_min_iteration" id="mare::sdf_graph_query_info::_current_min_iteration" ref="group__sdf__doc.html#a2e0d122384b391108d83342601cefbb0" />
+      <keyword name="_current_max_iteration" id="mare::sdf_graph_query_info::_current_max_iteration" ref="group__sdf__doc.html#afb04a5c5e35728e205f92b6b56535a2a" />
+      <keyword name="_intr_type" id="mare::sdf_graph_query_info::_intr_type" ref="group__sdf__doc.html#a720a2e4c345838792e3e5284bfc9e406" />
+      <keyword name="sdf_graph_query" id="mare::sdf_graph_query_info::sdf_graph_query" ref="group__sdf__doc.html#a6e863c7b1a74c02c642b4fb5e5fb5611" />
+      <keyword name="to_string" id="mare::sdf_graph_query_info::to_string" ref="group__sdf__doc.html#a1bd85195bc697ae371cb9d571b5aa01c" />
+      <keyword name="get_num_channels" id="mare::node_channels::get_num_channels" ref="group__sdf__doc.html#a7f709fb9506c1fd4e0f51037fb4312ab" />
+      <keyword name="is_in_channel" id="mare::node_channels::is_in_channel" ref="group__sdf__doc.html#a76ef048fba6f152736b774e63dec98c7" />
+      <keyword name="is_out_channel" id="mare::node_channels::is_out_channel" ref="group__sdf__doc.html#a07a4ab2c981a0f90d9733c8e2dd67ea0" />
+      <keyword name="get_elemsize" id="mare::node_channels::get_elemsize" ref="group__sdf__doc.html#a0853694101631d77e78b7473d9b7dece" />
+      <keyword name="read" id="mare::node_channels::read" ref="group__sdf__doc.html#a40da95d2c426d16bef90c86a1b307aa3" />
+      <keyword name="write" id="mare::node_channels::write" ref="group__sdf__doc.html#a35c857a6b03b5813eebfeed6cd742b04" />
+      <keyword name="_vdir" id="mare::node_channels::_vdir" ref="group__sdf__doc.html#afe3be613d63b06dbf7099d932c2c1b44" />
+      <keyword name="_velemsize" id="mare::node_channels::_velemsize" ref="group__sdf__doc.html#a9531a26c1e7fc593c2a75d3928cfd780" />
+      <keyword name="_vbuffer" id="mare::node_channels::_vbuffer" ref="group__sdf__doc.html#af5479b11f0f9854e02d3118c0ecdee79" />
+      <keyword name="internal::node_channels_accessor" id="mare::node_channels::internal::node_channels_accessor" ref="group__sdf__doc.html#a31be5e72a5402fe57faae4dde873d0e3" />
+      <keyword name="Tasks Reference API" id="Tasks Reference API" ref="group__chapter__tasks__doc.html" />
+      <keyword name="Task Objects" id="Task Objects" ref="group__tasks__doc.html" />
+      <keyword name="with_attrs" id="tasks_doc::with_attrs" ref="group__tasks__doc.html#ga25f7bf623d3276d3f8ef7be928009650" />
+      <keyword name="with_attrs" id="tasks_doc::with_attrs" ref="group__tasks__doc.html#ga7aecdfdcdb660fcebb58644f1c46dce8" />
+      <keyword name="with_attrs" id="tasks_doc::with_attrs" ref="group__tasks__doc.html#ga650971b2296255d8f6c464ca55b8341c" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#ga074c821425fdab3a308d4f8360d2ced7" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#gaebfbf2f3455aae2477f49ec1c9dc4b8d" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#gaf5887439ce966271d784939a51d3f315" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#gaeec9b82539a48d9e69ddfdb45929d875" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#gae298d061ca1bd6b1fdb1eedb899fb270" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#ga2a6ef93d2aa63dbcc87f578da5338a54" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#ga505727260824ab7acf7ac307e3f67e03" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#ga73f557b49e2d1be235f3950a1e5ddb0c" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#gaa812106ed99b17d8f88a67421e5a2e1c" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#ga1fb6aea8e0fb0c13e30408c2ffc2c30b" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#ga506c7fa3af0ca58745cc0f5fc0c8293e" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#gafdd5d1e8630f284a848d6683ef4c2739" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#ga20e6301fb2bd4ac09fc35af0f117128f" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#gaa04b8634992c27ff608d1b36d9945d71" />
+      <keyword name="operator==" id="tasks_doc::operator==" ref="group__tasks__doc.html#ga6bcc061df3481e536125b36fcd206214" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#ga887092b640b6c861edd6c43e55efba6c" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#ga7cd0ec4252bf775aa763669b9f5c9314" />
+      <keyword name="operator!=" id="tasks_doc::operator!=" ref="group__tasks__doc.html#gaa17a9fd1f53c86cf58d87d899d23b6e1" />
+      <keyword name="task_attrs" id="mare::task_attrs::task_attrs" ref="group__tasks__doc.html#a734c12b7e32dc86c33ef263a922fb46f" />
+      <keyword name="operator=" id="mare::task_attrs::operator=" ref="group__tasks__doc.html#a194cc95779a40661683a9153aae8c9f5" />
+      <keyword name="task_attrs" id="mare::task_attrs::task_attrs" ref="group__tasks__doc.html#a4ba009ea03111e7707bffaa429c4f94f" />
+      <keyword name="_mask" id="mare::task_attrs::_mask" ref="group__tasks__doc.html#ae4e8bfddc48484f5c5e7a76012c5c58a" />
+      <keyword name="bool::operator==" id="mare::task_attrs::bool::operator==" ref="group__tasks__doc.html#aa5afe2537657fdd7fd98012b75b5e920" />
+      <keyword name="bool::operator!=" id="mare::task_attrs::bool::operator!=" ref="group__tasks__doc.html#a58dee0887ada62cd73a02f61c4b9af76" />
+      <keyword name="create_task_attrs" id="mare::task_attrs::create_task_attrs" ref="group__tasks__doc.html#a22ac03fede83fea6eee39b107050c0ad" />
+      <keyword name="create_task_attrs" id="mare::task_attrs::create_task_attrs" ref="group__tasks__doc.html#a529e04a3304fcac06ecef946742b2452" />
+      <keyword name="has_attr" id="mare::task_attrs::has_attr" ref="group__tasks__doc.html#ab888fd6d1d22551c0060b872ccdbf058" />
+      <keyword name="remove_attr" id="mare::task_attrs::remove_attr" ref="group__tasks__doc.html#a7ce2832f381ee5a3b667e9dfb5fa308f" />
+      <keyword name="add_attr" id="mare::task_attrs::add_attr" ref="group__tasks__doc.html#ae792a45dff3f7771af33b5ee0dd4f02d" />
+      <keyword name="body_traits" id="mare::body_with_attrs&lt; Body &gt;::body_traits" ref="group__tasks__doc.html#a12f2f25eb20fe095c8021a6c2a5ed475" />
+      <keyword name="return_type" id="mare::body_with_attrs&lt; Body &gt;::return_type" ref="group__tasks__doc.html#a833282222151cf6953541c475785ba20" />
+      <keyword name="get_attrs" id="mare::body_with_attrs&lt; Body &gt;::get_attrs" ref="group__tasks__doc.html#aa39e468ae3342bff1a78ca5f8af49328" />
+      <keyword name="get_body" id="mare::body_with_attrs&lt; Body &gt;::get_body" ref="group__tasks__doc.html#ae37963e48429e179131ced6e239cef0e" />
+      <keyword name="operator()" id="mare::body_with_attrs&lt; Body &gt;::operator()" ref="group__tasks__doc.html#a42b33485c803ad1a4a9224748e4e5e9d" />
+      <keyword name="body_with_attrs" id="mare::body_with_attrs&lt; Body &gt;::body_with_attrs" ref="group__tasks__doc.html#a69584486bc925293bac3e8a174a4162c" />
+      <keyword name="_attrs" id="mare::body_with_attrs&lt; Body &gt;::_attrs" ref="group__tasks__doc.html#ac1a8bde84a809b253aa7d0004eb8f0eb" />
+      <keyword name="_body" id="mare::body_with_attrs&lt; Body &gt;::_body" ref="group__tasks__doc.html#a74472aea002943c819c7e440b599b1ed" />
+      <keyword name="body_traits" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::body_traits" ref="group__tasks__doc.html#a926a58e13040cca5ccea78215dac3e6f" />
+      <keyword name="return_type" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::return_type" ref="group__tasks__doc.html#aa450bfb3199093a0d1cbb8d8018ca646" />
+      <keyword name="kernel_parameters" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::kernel_parameters" ref="group__tasks__doc.html#a5b18ed10a3790f4e3d9bd82735478d6d" />
+      <keyword name="kernel_arguments" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::kernel_arguments" ref="group__tasks__doc.html#ad5dbc7ae0d3d8afb2d644d859616b2b4" />
+      <keyword name="get_attrs" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::get_attrs" ref="group__tasks__doc.html#aa9c46ee9fc017c479ff423c01040d1ee" />
+      <keyword name="get_body" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::get_body" ref="group__tasks__doc.html#ab30d6aa328ed82e6af64983f631deb29" />
+      <keyword name="operator()" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::operator()" ref="group__tasks__doc.html#af6287f02e1b74ed23d6e78174596c172" />
+      <keyword name="get_gpu_kernel" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::get_gpu_kernel" ref="group__tasks__doc.html#a37c5b58c127e1b7c96af44ac80d0c5fa" />
+      <keyword name="get_kernel_args" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::get_kernel_args" ref="group__tasks__doc.html#a8b37c09e83bc2dd13f1d6e820c5a3a46" />
+      <keyword name="MARE_GCC_IGNORE_END" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::MARE_GCC_IGNORE_END" ref="group__tasks__doc.html#a2d70dd4315ceb6b011f5799e22fdacd2" />
+      <keyword name="body_with_attrs_gpu" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::body_with_attrs_gpu" ref="group__tasks__doc.html#ac5e308414682b0e7504d29001966cf14" />
+      <keyword name="_attrs" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::_attrs" ref="group__tasks__doc.html#af927ac6f5613e3aba3256217c32d9e32" />
+      <keyword name="_body" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::_body" ref="group__tasks__doc.html#a144eb15db838d0a19c6d4ed99466317c" />
+      <keyword name="_kernel" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::_kernel" ref="group__tasks__doc.html#a3501f3e3f9e88e472ba991e2fbc9c04f" />
+      <keyword name="_kargs" id="mare::body_with_attrs_gpu&lt; Body, KernelPtr, Kargs...&gt;::_kargs" ref="group__tasks__doc.html#ae4432409b20ac6d3028f917e1e1568d2" />
+      <keyword name="body_traits" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::body_traits" ref="group__tasks__doc.html#a4e9b9367afba68b179340db3a9688675" />
+      <keyword name="return_type" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::return_type" ref="group__tasks__doc.html#ab3619ff09b3cad45690ad640dd0ad05e" />
+      <keyword name="cancel_handler_traits" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::cancel_handler_traits" ref="group__tasks__doc.html#adccd0af7150f48bc796c471a6005575c" />
+      <keyword name="cancel_handler_return_type" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::cancel_handler_return_type" ref="group__tasks__doc.html#a03f826720a987496f58a1ed45b778685" />
+      <keyword name="get_attrs" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::get_attrs" ref="group__tasks__doc.html#a315bf5f506cb82ae207795b3ad961b94" />
+      <keyword name="get_body" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::get_body" ref="group__tasks__doc.html#abec83c5ea56bd857644c8a97d3c45ee6" />
+      <keyword name="get_cancel_handler" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::get_cancel_handler" ref="group__tasks__doc.html#a99ab4eff2a466122cdcca02e71ab876f" />
+      <keyword name="operator()" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::operator()" ref="group__tasks__doc.html#a573efb0b3eeed4ad6017098a4e6186b8" />
+      <keyword name="body_with_attrs" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::body_with_attrs" ref="group__tasks__doc.html#ac257a6fdd0ebc7689d8dd31f2f28e691" />
+      <keyword name="_attrs" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::_attrs" ref="group__tasks__doc.html#a1ec8fe0bc1c9c992362053bcdf501302" />
+      <keyword name="_body" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::_body" ref="group__tasks__doc.html#a74557eb34aa6b1f1315491efe79f270c" />
+      <keyword name="_handler" id="mare::body_with_attrs&lt; Body, Cancel_Handler &gt;::_handler" ref="group__tasks__doc.html#a17648c16d4f85a341eb3ef94239e9851" />
+      <keyword name="unsafe_task_ptr" id="mare::unsafe_task_ptr::unsafe_task_ptr" ref="group__tasks__doc.html#a5af3fe16d6b7f379881c9aaab9cefa19" />
+      <keyword name="unsafe_task_ptr" id="mare::unsafe_task_ptr::unsafe_task_ptr" ref="group__tasks__doc.html#a5df365c2180b02eaf163b1a9db909fff" />
+      <keyword name="unsafe_task_ptr" id="mare::unsafe_task_ptr::unsafe_task_ptr" ref="group__tasks__doc.html#a4fda3b80c4dcada680cf2b34824629ce" />
+      <keyword name="unsafe_task_ptr" id="mare::unsafe_task_ptr::unsafe_task_ptr" ref="group__tasks__doc.html#ad748e371273358e620b87c8bab400f78" />
+      <keyword name="~unsafe_task_ptr" id="mare::unsafe_task_ptr::~unsafe_task_ptr" ref="group__tasks__doc.html#a1d19ae004a4668992fc7e77f73c35e88" />
+      <keyword name="operator=" id="mare::unsafe_task_ptr::operator=" ref="group__tasks__doc.html#a0a2853543e90acf3d6bb7f1fea935ccb" />
+      <keyword name="operator=" id="mare::unsafe_task_ptr::operator=" ref="group__tasks__doc.html#a34c3393064fc0e89b4af7e15bbcd5ced" />
+      <keyword name="reset" id="mare::unsafe_task_ptr::reset" ref="group__tasks__doc.html#a0c64147b8812ce1769213c82c4c8fdfa" />
+      <keyword name="swap" id="mare::unsafe_task_ptr::swap" ref="group__tasks__doc.html#a26732a6eda7a952bde6eb4a9e4e19020" />
+      <keyword name="unique" id="mare::unsafe_task_ptr::unique" ref="group__tasks__doc.html#a2410b1ef9c678213e2bf85d9e6c8d079" />
+      <keyword name="operator bool" id="mare::unsafe_task_ptr::operator bool" ref="group__tasks__doc.html#a7cb697e8f1db5b120a08282715a40c6c" />
+      <keyword name="task_ptr" id="mare::task_ptr::task_ptr" ref="group__tasks__doc.html#aa553799a1c4ff5ecf2566774234d4759" />
+      <keyword name="task_ptr" id="mare::task_ptr::task_ptr" ref="group__tasks__doc.html#a72310d2501b5453900d28a7644ba8876" />
+      <keyword name="task_ptr" id="mare::task_ptr::task_ptr" ref="group__tasks__doc.html#af4adf2bb660d51cd24eb8e9c9ba6914b" />
+      <keyword name="task_ptr" id="mare::task_ptr::task_ptr" ref="group__tasks__doc.html#ae5c0060c392c8a86d541398f641b4408" />
+      <keyword name="~task_ptr" id="mare::task_ptr::~task_ptr" ref="group__tasks__doc.html#a7b703d9f02a39f06c69a380c6a6ad4cf" />
+      <keyword name="operator=" id="mare::task_ptr::operator=" ref="group__tasks__doc.html#a5ff591082db9fd58cecedef74a972c51" />
+      <keyword name="operator=" id="mare::task_ptr::operator=" ref="group__tasks__doc.html#a244b555a1d1cb075ed0e6e8274aac042" />
+      <keyword name="operator=" id="mare::task_ptr::operator=" ref="group__tasks__doc.html#a6e5f17b46ec948351e9091a972d5b118" />
+      <keyword name="swap" id="mare::task_ptr::swap" ref="group__tasks__doc.html#a64350f5925a1a8409ec9cbd53c9a8e13" />
+      <keyword name="get" id="mare::task_ptr::get" ref="group__tasks__doc.html#a0e0b2b99756e2b44ed6dcafc759c09e0" />
+      <keyword name="reset" id="mare::task_ptr::reset" ref="group__tasks__doc.html#ac80e9dab431aa871d74fe5b957050a1e" />
+      <keyword name="operator bool" id="mare::task_ptr::operator bool" ref="group__tasks__doc.html#adcd206706165ae692f314b8e4fedbf15" />
+      <keyword name="use_count" id="mare::task_ptr::use_count" ref="group__tasks__doc.html#abbf3eaefc32c0723acef277f8d86ad86" />
+      <keyword name="unique" id="mare::task_ptr::unique" ref="group__tasks__doc.html#a716a24731c33fd7d03cb83e6a2869503" />
+      <keyword name="Creation" id="Creation" ref="group__tasks__creation.html" />
+      <keyword name="create_ndrange_task" id="tasks_creation::create_ndrange_task" ref="group__tasks__creation.html#gabd760eb3e61fec63535311045401be55" />
+      <keyword name="create_task" id="tasks_creation::create_task" ref="group__tasks__creation.html#ga4d2a57c19a9199c7ccee7a01ff688da8" />
+      <keyword name="create_task" id="tasks_creation::create_task" ref="group__tasks__creation.html#ga746e7886c29c41819977380b7e5ecbcb" />
+      <keyword name="create_task" id="tasks_creation::create_task" ref="group__tasks__creation.html#ga31dd52abe0d455e5a45f63f1569788f5" />
+      <keyword name="Range and Index" id="Range and Index" ref="group__ranges__doc.html" />
+      <keyword name="index" id="mare::index::index" ref="group__ranges__doc.html#abe2b512199e5976b37d2db88243d5cec" />
+      <keyword name="operator=" id="mare::index::operator=" ref="group__ranges__doc.html#a0fb6644295052e4e5219d8bfe256c19d" />
+      <keyword name="operator+=" id="mare::index::operator+=" ref="group__ranges__doc.html#a552521057181096838a73bbb2d86d56c" />
+      <keyword name="operator-=" id="mare::index::operator-=" ref="group__ranges__doc.html#ae6cf1076d7a22c71d62837ade7f72c59" />
+      <keyword name="operator-" id="mare::index::operator-" ref="group__ranges__doc.html#a63f40caaebc59358679cbe2231937733" />
+      <keyword name="operator+" id="mare::index::operator+" ref="group__ranges__doc.html#a3e2b7bd16e51ba28e2dcbbc338e2e8ec" />
+      <keyword name="operator==" id="mare::index::operator==" ref="group__ranges__doc.html#ab8fadad4e798bd10fbc202ecd9294184" />
+      <keyword name="operator!=" id="mare::index::operator!=" ref="group__ranges__doc.html#a27d29b6c925cd6eb352d1836dcc81d21" />
+      <keyword name="operator&lt;" id="mare::index::operator&lt;" ref="group__ranges__doc.html#aaff10880fc24ad79fc2d073ee3452831" />
+      <keyword name="operator&lt;=" id="mare::index::operator&lt;=" ref="group__ranges__doc.html#a09cbc09a90c5064df8f06e0c2995762f" />
+      <keyword name="operator&gt;" id="mare::index::operator&gt;" ref="group__ranges__doc.html#adcf847f4190136730f2c6dc9cef2fe27" />
+      <keyword name="operator&gt;=" id="mare::index::operator&gt;=" ref="group__ranges__doc.html#a067dcb9cdb2700114230e838359c7ff7" />
+      <keyword name="operator[]" id="mare::index::operator[]" ref="group__ranges__doc.html#a8df91b179be9504d6a5d071a8672eabf" />
+      <keyword name="operator[]" id="mare::index::operator[]" ref="group__ranges__doc.html#a92def1e7a921ea9217588f93681b5348" />
+      <keyword name="data" id="mare::index::data" ref="group__ranges__doc.html#aab2fb28e53abc92a06b1b1d410266742" />
+      <keyword name="index" id="mare::index&lt; 1 &gt;::index" ref="group__ranges__doc.html#abbf7df8bbac8ce76af25d80c28437cb9" />
+      <keyword name="index" id="mare::index&lt; 1 &gt;::index" ref="group__ranges__doc.html#a60759697d8a594a29379d751597eb5ae" />
+      <keyword name="index" id="mare::index&lt; 1 &gt;::index" ref="group__ranges__doc.html#ae87a87cb308a1732306cd2232c95073d" />
+      <keyword name="index" id="mare::index&lt; 2 &gt;::index" ref="group__ranges__doc.html#af01532c50ab91771ea91d3760562bdaf" />
+      <keyword name="index" id="mare::index&lt; 2 &gt;::index" ref="group__ranges__doc.html#a2107e2f7f54c2214ce2a2eb3eb908667" />
+      <keyword name="index" id="mare::index&lt; 2 &gt;::index" ref="group__ranges__doc.html#a6fd2db583d31a260c468fa9ca75aa2f0" />
+      <keyword name="index" id="mare::index&lt; 3 &gt;::index" ref="group__ranges__doc.html#a86aa62382016f9d6654c98514a84540d" />
+      <keyword name="index" id="mare::index&lt; 3 &gt;::index" ref="group__ranges__doc.html#a71ad340e65ac64e6fa88733bd0b259c6" />
+      <keyword name="index" id="mare::index&lt; 3 &gt;::index" ref="group__ranges__doc.html#ae9052127397b0f3aadc01f9a6b068734" />
+      <keyword name="range" id="mare::range&lt; 1 &gt;::range" ref="group__ranges__doc.html#a9fca51d455ed2fe6884333c777f6457f" />
+      <keyword name="range" id="mare::range&lt; 1 &gt;::range" ref="group__ranges__doc.html#a01b1b8df8ed2eac080029fac777eaa68" />
+      <keyword name="range" id="mare::range&lt; 1 &gt;::range" ref="group__ranges__doc.html#a66e9620a2039fc851db7578e6e70e7c0" />
+      <keyword name="range" id="mare::range&lt; 2 &gt;::range" ref="group__ranges__doc.html#a31e7b93cc8b425bc4d283637e7ae40b5" />
+      <keyword name="range" id="mare::range&lt; 2 &gt;::range" ref="group__ranges__doc.html#a90771ba94b2a50ba0ea9272d79afe6ab" />
+      <keyword name="range" id="mare::range&lt; 2 &gt;::range" ref="group__ranges__doc.html#ac443d057d1823949740c31b7f3248e96" />
+      <keyword name="range" id="mare::range&lt; 3 &gt;::range" ref="group__ranges__doc.html#a2ae7f0eafccacdb73e77114e97c6bcbe" />
+      <keyword name="range" id="mare::range&lt; 3 &gt;::range" ref="group__ranges__doc.html#a3ba3c50d531db1bc3b8bfc6ba8b792b4" />
+      <keyword name="range" id="mare::range&lt; 3 &gt;::range" ref="group__ranges__doc.html#a62a8161e9b303e440127d9de1901b9d5" />
+      <keyword name="Execution" id="Execution" ref="group__execution.html" />
+      <keyword name="launch" id="execution::launch" ref="group__execution.html#gafde1b91b96ad3798455a92110f4eb9ba" />
+      <keyword name="launch" id="execution::launch" ref="group__execution.html#gae3207e534a19d04348b595d8054f0ae6" />
+      <keyword name="launch" id="execution::launch" ref="group__execution.html#gabb82f276392ec0ab7fd7a2ac131d8c0b" />
+      <keyword name="launch" id="execution::launch" ref="group__execution.html#gafb8c4535d96ebc43bfdb33a38121e957" />
+      <keyword name="launch_and_reset" id="execution::launch_and_reset" ref="group__execution.html#ga40aa3b0fcca0613706a53324a87f2926" />
+      <keyword name="launch_and_reset" id="execution::launch_and_reset" ref="group__execution.html#ga3794665b9da59abc7c2e8e1d10aabd55" />
+      <keyword name="launch" id="execution::launch" ref="group__execution.html#gabc5f29efd3dadc4cccb4a130130af1cb" />
+      <keyword name="launch" id="execution::launch" ref="group__execution.html#ga6f881586481fb0a4806622c7a16f0c37" />
+      <keyword name="launch" id="execution::launch" ref="group__execution.html#gacbaddd1b7fba7696c0156fa775feaefc" />
+      <keyword name="Dependencies" id="Dependencies" ref="group__dependencies.html" />
+      <keyword name="after" id="dependencies::after" ref="group__dependencies.html#gab0a753d6b37824e4b5349c411b155ca2" />
+      <keyword name="after" id="dependencies::after" ref="group__dependencies.html#gac5864d73d4bb4ee0c9a58f0ae16779f4" />
+      <keyword name="after" id="dependencies::after" ref="group__dependencies.html#gacad0d731d3b97459ad24853d04762e7f" />
+      <keyword name="after" id="dependencies::after" ref="group__dependencies.html#gac37af57d581bdf37f4418dd1d7512aac" />
+      <keyword name="before" id="dependencies::before" ref="group__dependencies.html#ga5380533974751674726d9899ecb99d22" />
+      <keyword name="before" id="dependencies::before" ref="group__dependencies.html#ga062313c932a5355b13e7f316aa53a1c3" />
+      <keyword name="before" id="dependencies::before" ref="group__dependencies.html#gae6a022ab7bb87719f4cf165f26db67e3" />
+      <keyword name="before" id="dependencies::before" ref="group__dependencies.html#gadf51da1973e09fedd609eda4a4318471" />
+      <keyword name="operator&gt;&gt;" id="dependencies::operator&gt;&gt;" ref="group__dependencies.html#gaa6112c93adb30ac704fab64e2c5902b4" />
+      <keyword name="operator&gt;&gt;" id="dependencies::operator&gt;&gt;" ref="group__dependencies.html#gabd2a27a6f2898f717122456f4fbf616c" />
+      <keyword name="operator&gt;&gt;" id="dependencies::operator&gt;&gt;" ref="group__dependencies.html#gaba89cf682a6fbc0c11535bc71916871a" />
+      <keyword name="operator&gt;&gt;" id="dependencies::operator&gt;&gt;" ref="group__dependencies.html#gaa6d3a1a2549bae98578e8ca058c39a58" />
+      <keyword name="operator&lt;&lt;" id="dependencies::operator&lt;&lt;" ref="group__dependencies.html#ga553caee723b73fda87ff9907b7276e95" />
+      <keyword name="operator&lt;&lt;" id="dependencies::operator&lt;&lt;" ref="group__dependencies.html#ga97c59c4a74f20f73b007e2a54bc1f31f" />
+      <keyword name="operator&lt;&lt;" id="dependencies::operator&lt;&lt;" ref="group__dependencies.html#ga503065ac347f7e0506f2fc04d3e92aa5" />
+      <keyword name="operator&lt;&lt;" id="dependencies::operator&lt;&lt;" ref="group__dependencies.html#ga175847590d6e059dd6638483e8fb45e5" />
+      <keyword name="Grouping" id="Grouping" ref="group__grouping.html" />
+      <keyword name="join_group" id="grouping::join_group" ref="group__grouping.html#gad6f329fcb231dc2b93be5f5f50431548" />
+      <keyword name="join_group" id="grouping::join_group" ref="group__grouping.html#gad12172153012b8804e10419b49be9309" />
+      <keyword name="Synchronization" id="Synchronization" ref="group__sync.html" />
+      <keyword name="wait_for" id="sync::wait_for" ref="group__sync.html#ga69fffcc3af2e847d50a040a69e137fd3" />
+      <keyword name="wait_for" id="sync::wait_for" ref="group__sync.html#ga7799d98cfd89f92962520eee698024c1" />
+      <keyword name="barrier" id="mare::barrier::barrier" ref="group__sync.html#a6c530b6dfaadda880096cfb311fdb2ec" />
+      <keyword name="barrier" id="mare::barrier::barrier" ref="group__sync.html#a94b656d2a1bfaf2f607dc8d72508d20e" />
+      <keyword name="barrier" id="mare::barrier::barrier" ref="group__sync.html#aa5b5d83bff7175bbe17660575def75a6" />
+      <keyword name="operator=" id="mare::barrier::operator=" ref="group__sync.html#a1123d304eccc7b11597144b63018cb0d" />
+      <keyword name="operator=" id="mare::barrier::operator=" ref="group__sync.html#add550a4f584d02a869f239c2a26d10f6" />
+      <keyword name="wait" id="mare::barrier::wait" ref="group__sync.html#a6d7ec67e74c2fa67212d3262d80de6f6" />
+      <keyword name="condition_variable" id="mare::condition_variable::condition_variable" ref="group__sync.html#a578d58be437295cbbee3e96588234a59" />
+      <keyword name="condition_variable" id="mare::condition_variable::condition_variable" ref="group__sync.html#a621488767365f1a27e9d79f5da734354" />
+      <keyword name="condition_variable" id="mare::condition_variable::condition_variable" ref="group__sync.html#a8c09b1d234e69a90580c6b3ad18e9b9c" />
+      <keyword name="operator=" id="mare::condition_variable::operator=" ref="group__sync.html#a87d789390b40631cb60346a9b7b88820" />
+      <keyword name="notify_one" id="mare::condition_variable::notify_one" ref="group__sync.html#accddd37a3610316d611c765e68fa78c6" />
+      <keyword name="notify_all" id="mare::condition_variable::notify_all" ref="group__sync.html#a0fbb9d45670720ade9c91cf6e7b160c9" />
+      <keyword name="wait" id="mare::condition_variable::wait" ref="group__sync.html#ad566ae08aad9c6d3ecda85916ac4b7f4" />
+      <keyword name="wait" id="mare::condition_variable::wait" ref="group__sync.html#af24bc4060870e38bcd1a4347fcfadd13" />
+      <keyword name="wait_for" id="mare::condition_variable::wait_for" ref="group__sync.html#acaac1e9fb65717a1c1cbdc9aa02cd1d9" />
+      <keyword name="wait_for" id="mare::condition_variable::wait_for" ref="group__sync.html#aee4a872e51bc0ee512764c7bc216d4bb" />
+      <keyword name="wait_until" id="mare::condition_variable::wait_until" ref="group__sync.html#a74eec8b3d6269f2c002e4c43c093f0b0" />
+      <keyword name="wait_until" id="mare::condition_variable::wait_until" ref="group__sync.html#a40a23fe5539d030e169d40ea6f2110eb" />
+      <keyword name="mutex" id="mare::mutex::mutex" ref="group__sync.html#ab01ebe94b8a258b9af6d2d3094f6abeb" />
+      <keyword name="mutex" id="mare::mutex::mutex" ref="group__sync.html#ab41606affb2141c4b3ed625189dec7c1" />
+      <keyword name="mutex" id="mare::mutex::mutex" ref="group__sync.html#a74e49347367b098473556c4ff8a978ec" />
+      <keyword name="operator=" id="mare::mutex::operator=" ref="group__sync.html#ad3e4a763769510f320ea9188eb1526f4" />
+      <keyword name="~mutex" id="mare::mutex::~mutex" ref="group__sync.html#a7b0ae6952b6aa248a525c696f8255bd8" />
+      <keyword name="lock" id="mare::mutex::lock" ref="group__sync.html#a4697363fc30309d3eb141fc93ab9ff0f" />
+      <keyword name="try_lock" id="mare::mutex::try_lock" ref="group__sync.html#a71a0ae695858bd4e45723260db7299ab" />
+      <keyword name="unlock" id="mare::mutex::unlock" ref="group__sync.html#adba1784ebe0d7f25fa7d6270498a0e2c" />
+      <keyword name="futex" id="mare::futex::futex" ref="group__sync.html#ab21572250fc91c412bed340ccf9d5e07" />
+      <keyword name="~futex" id="mare::futex::~futex" ref="group__sync.html#a278b83caa2054daeba167bcbe4d18ca3" />
+      <keyword name="futex" id="mare::futex::futex" ref="group__sync.html#a3d3f47587cd47edf70146c73966b6e58" />
+      <keyword name="futex" id="mare::futex::futex" ref="group__sync.html#ab74172a5256c88bd115ee40e4ac03bcb" />
+      <keyword name="operator=" id="mare::futex::operator=" ref="group__sync.html#a0744c0f25a8f11f76f41461aaec78a00" />
+      <keyword name="wait" id="mare::futex::wait" ref="group__sync.html#ad3918df748a9da5607ede551dfcfdf8e" />
+      <keyword name="wakeup" id="mare::futex::wakeup" ref="group__sync.html#ab112584b94e9d5f53dd348418be71157" />
+      <keyword name="Cancelation" id="Cancelation" ref="group__tasks__cancelation.html" />
+      <keyword name="canceled" id="tasks_cancelation::canceled" ref="group__tasks__cancelation.html#ga53177a2d3238bf2b1c0a39091fe2ad5d" />
+      <keyword name="canceled" id="tasks_cancelation::canceled" ref="group__tasks__cancelation.html#gad1020852759727d665fa68215def0e1a" />
+      <keyword name="cancel" id="tasks_cancelation::cancel" ref="group__tasks__cancelation.html#ga26b8a9d6ac322a21cd5cef9c90d61e4c" />
+      <keyword name="cancel" id="tasks_cancelation::cancel" ref="group__tasks__cancelation.html#ga9eec14bf458dfc6322910b6d428221ad" />
+      <keyword name="abort_on_cancel" id="tasks_cancelation::abort_on_cancel" ref="group__tasks__cancelation.html#gad97de382780eb082e5341a23cf45dec9" />
+      <keyword name="abort_task" id="tasks_cancelation::abort_task" ref="group__tasks__cancelation.html#ga2ef5a64e289ff4f2339b846066d4a052" />
+      <keyword name="Attributes" id="Attributes" ref="group__attributes.html" />
+      <keyword name="has_attr" id="attributes::has_attr" ref="group__attributes.html#ga44dc162665a5e4f4382755dc052cd7f4" />
+      <keyword name="remove_attr" id="attributes::remove_attr" ref="group__attributes.html#ga1130544cc8ec3fac34a70aece4a5313b" />
+      <keyword name="add_attr" id="attributes::add_attr" ref="group__attributes.html#ga19944fdc8ac73fc6f99ef5bb26a8287f" />
+      <keyword name="create_task_attrs" id="attributes::create_task_attrs" ref="group__attributes.html#ga237e838bcedc75fcfb2f96ad604f1ea0" />
+      <keyword name="create_task_attrs" id="attributes::create_task_attrs" ref="group__attributes.html#ga0c0528f8be3259846d70ebafc43e7a66" />
+      <keyword name="operator==" id="attributes::operator==" ref="group__attributes.html#ga98dbd321550640d800e13222abb7a9f9" />
+      <keyword name="operator!=" id="attributes::operator!=" ref="group__attributes.html#ga5202016ef7010a2aab57fb83d4e79f16" />
+      <keyword name="blocking" id="attributes::blocking" ref="group__attributes.html#ga864b6da129cad4e6903c8935ff801e0f" />
+      <keyword name="yield" id="attributes::yield" ref="group__attributes.html#ga643186c4ef61e9cffd58c39f3475af1c" />
+      <keyword name="gpu" id="attributes::gpu" ref="group__attributes.html#ga276668b1090e5c7eb5c1d8c2fa8f41cc" />
+      <keyword name="Groups Reference API" id="Groups Reference API" ref="group__chapter__groups__doc.html" />
+      <keyword name="Group Objects" id="Group Objects" ref="group__groups__doc.html" />
+      <keyword name="group_name" id="groups_doc::group_name" ref="group__groups__doc.html#ga7eeb21a32ba125a8bad942416abe8e9b" />
+      <keyword name="group_ptr" id="mare::group_ptr::group_ptr" ref="group__groups__doc.html#a256a27cc90297e01c333f5d47c941b2c" />
+      <keyword name="group_ptr" id="mare::group_ptr::group_ptr" ref="group__groups__doc.html#a9d143cd9d96409073b86e323431f421e" />
+      <keyword name="group_ptr" id="mare::group_ptr::group_ptr" ref="group__groups__doc.html#aed2543f9366344e4744ef2881b7f588d" />
+      <keyword name="group_ptr" id="mare::group_ptr::group_ptr" ref="group__groups__doc.html#abc65c6ce798e70989170b10eabd5601b" />
+      <keyword name="~group_ptr" id="mare::group_ptr::~group_ptr" ref="group__groups__doc.html#abbd0f744352da38a9b546531a6ead056" />
+      <keyword name="operator=" id="mare::group_ptr::operator=" ref="group__groups__doc.html#a53974fb8bd942ae0bc20340705f7ce1c" />
+      <keyword name="operator=" id="mare::group_ptr::operator=" ref="group__groups__doc.html#a9d08c56bb88384e4e26eea41cfcc6d59" />
+      <keyword name="operator=" id="mare::group_ptr::operator=" ref="group__groups__doc.html#a5a45aa0bfc87ac4f063682b8e3aad83b" />
+      <keyword name="swap" id="mare::group_ptr::swap" ref="group__groups__doc.html#a3ad63d01d166db42331e7342956f84bf" />
+      <keyword name="reset" id="mare::group_ptr::reset" ref="group__groups__doc.html#a358be873c82bc8b3adedcdaeee164cd3" />
+      <keyword name="operator bool" id="mare::group_ptr::operator bool" ref="group__groups__doc.html#acf8af971a91d7715c85f97245ed8c460" />
+      <keyword name="use_count" id="mare::group_ptr::use_count" ref="group__groups__doc.html#a5bb77efe4019f12aa5280e35713a38a5" />
+      <keyword name="unique" id="mare::group_ptr::unique" ref="group__groups__doc.html#aa3113e44130cf423fb03cacc500ef7da" />
+      <keyword name="Creation" id="Creation" ref="group__groups__creation.html" />
+      <keyword name="create_group" id="groups_creation::create_group" ref="group__groups__creation.html#ga164f9c8b577069b2d8b1634cde459b1e" />
+      <keyword name="create_group" id="groups_creation::create_group" ref="group__groups__creation.html#ga9be46310d32ff11f91c03f8917e5c81e" />
+      <keyword name="create_group" id="groups_creation::create_group" ref="group__groups__creation.html#ga5954f8ae6f1372d50ebab63e3b707afd" />
+      <keyword name="intersect" id="groups_creation::intersect" ref="group__groups__creation.html#ga166d4a86d73f242aabedb22d1d065036" />
+      <keyword name="Waiting" id="Waiting" ref="group__groups__waiting.html" />
+      <keyword name="wait_for" id="groups_waiting::wait_for" ref="group__groups__waiting.html#gaa2a0ab6d7f24ae0840b581bfa8e94fea" />
+      <keyword name="spin_wait_for" id="groups_waiting::spin_wait_for" ref="group__groups__waiting.html#ga427f114a6bf1138a7540f9b1331cc6db" />
+      <keyword name="Cancelation" id="Cancelation" ref="group__groups__cancel.html" />
+      <keyword name="cancel" id="groups_cancel::cancel" ref="group__groups__cancel.html#ga432f04a0f64afdd64f3b83000bddc042" />
+      <keyword name="canceled" id="groups_cancel::canceled" ref="group__groups__cancel.html#ga36ac85ed1e789507e43f03eaab9a8841" />
+      <keyword name="Power Management API" id="Power Management API" ref="group__chapter__power__doc.html" />
+      <keyword name="Static Power Management" id="Static Power Management" ref="group__static__power__doc.html" />
+      <keyword name="request_mode" id="static_power_doc::request_mode" ref="group__static__power__doc.html#gad32be3392699b57e4a273b6d57f32c33" />
+      <keyword name="normal" id="static_power_doc::normal" ref="group__static__power__doc.html#ggaa18c86a4d648d40861e8ad1609a17c47afea087517c26fadd409bd4b9dc642555" />
+      <keyword name="efficient" id="static_power_doc::efficient" ref="group__static__power__doc.html#ggaa18c86a4d648d40861e8ad1609a17c47a54f7b01b04b120ae34714e0b6b8a0045" />
+      <keyword name="perf_burst" id="static_power_doc::perf_burst" ref="group__static__power__doc.html#ggaa18c86a4d648d40861e8ad1609a17c47aeeb5a6a4bbb36766ef723a11a68f8e9a" />
+      <keyword name="saver" id="static_power_doc::saver" ref="group__static__power__doc.html#ggaa18c86a4d648d40861e8ad1609a17c47a21d8a920661b9c05b9959cbf0254d5fe" />
+      <keyword name="Dynamic Power Management" id="Dynamic Power Management" ref="group__dynamic__power__doc.html" />
+      <keyword name="set_goal" id="dynamic_power_doc::set_goal" ref="group__dynamic__power__doc.html#ga1d4b6c6f6ea7eea6f6f9854a8c1ddcdb" />
+      <keyword name="clear_goal" id="dynamic_power_doc::clear_goal" ref="group__dynamic__power__doc.html#ga41e1741e6804dad1d7cb6fe1ef104712" />
+      <keyword name="regulate" id="dynamic_power_doc::regulate" ref="group__dynamic__power__doc.html#gac4dab7dd9d1d5017735e24413f92b524" />
+      <keyword name="Heterogeneous Compute API" id="Heterogeneous Compute API" ref="group__chapter__heterogeneous__compute__doc.html" />
+      <keyword name="Buffers" id="Buffers" ref="group__buffers__doc.html" />
+      <keyword name="create_buffer" id="buffers_doc::create_buffer" ref="group__buffers__doc.html#gacac9232d5b0d128d266ff75c8d420e30" />
+      <keyword name="create_buffer" id="buffers_doc::create_buffer" ref="group__buffers__doc.html#gab475ea76c287dd3c27c34cb85e8b6a29" />
+      <keyword name="buffer" id="mare::buffer::buffer" ref="group__buffers__doc.html#a9f66cba14df85633b4b983d097485499" />
+      <keyword name="buffer" id="mare::buffer::buffer" ref="group__buffers__doc.html#accb49975429b226f972fb94d1e9283fe" />
+      <keyword name="sync" id="mare::buffer::sync" ref="group__buffers__doc.html#a18a54499f6644c94d78b02b35476df71" />
+      <keyword name="size" id="mare::buffer::size" ref="group__buffers__doc.html#aef061cc7c5b6ab884693097331a0e6d6" />
+      <keyword name="operator[]" id="mare::buffer::operator[]" ref="group__buffers__doc.html#a01267e87492083dfef815fcfa89296b0" />
+      <keyword name="data" id="mare::buffer::data" ref="group__buffers__doc.html#aca866b51cecf91f7bd5e77fe75c74d4b" />
+      <keyword name="GPU Task Creation" id="GPU Task Creation" ref="group__gpu__tasks__creation.html" />
+      <keyword name="create_ndrange_task" id="gpu_tasks_creation::create_ndrange_task" ref="group__gpu__tasks__creation.html#gadf718ea19bfe49d0b3d7bde526f2e8ef" />
+      <keyword name="GPU Patterns" id="GPU Patterns" ref="group__gpu__patterns.html" />
+      <keyword name="pfor_each" id="gpu_patterns::pfor_each" ref="group__gpu__patterns.html#ga5a8a8a086f9cfc7b675357da24cdf420" />
+      <keyword name="Data Structures" id="Data Structures" ref="group__chapter__data__structures.html" />
+      <keyword name="Concurrent Obstruction-Free DQueue" id="Concurrent Obstruction-Free DQueue" ref="group__cof__deque.html" />
+      <keyword name="Concurrent Obstruction-Free Queue" id="Concurrent Obstruction-Free Queue" ref="group__cof__queue.html" />
+      <keyword name="container_type" id="cof_queue::container_type" ref="group__cof__queue.html#ga13b50bbf12d8e7193516d04dc0d7e603" />
+      <keyword name="value_type" id="cof_queue::value_type" ref="group__cof__queue.html#ga968a4c873cd306ce53b1665918488255" />
+      <keyword name="cof_queue" id="cof_queue::cof_queue" ref="group__cof__queue.html#gad5131ac770b43cf683d94d0f226f7b3a" />
+      <keyword name="cof_queue" id="cof_queue::cof_queue" ref="group__cof__queue.html#gaadd335fdaa2350948c7fc645d6dbdec1" />
+      <keyword name="push" id="cof_queue::push" ref="group__cof__queue.html#gaf12603f21005d5cd7689e668e56fc939" />
+      <keyword name="pop" id="cof_queue::pop" ref="group__cof__queue.html#ga4122d5a2427e3431d7c1aa7e55c207a8" />
+      <keyword name="size" id="cof_queue::size" ref="group__cof__queue.html#gad0a7ec84d92075c9fd8b5ae025266080" />
+      <keyword name="_c" id="cof_queue::_c" ref="group__cof__queue.html#gafc02d668b3a9bbc82b25365b442f74e4" />
+      <keyword name="container_type" id="mare::cof_queue::container_type" ref="group__cof__queue.html#ga13b50bbf12d8e7193516d04dc0d7e603" />
+      <keyword name="value_type" id="mare::cof_queue::value_type" ref="group__cof__queue.html#ga968a4c873cd306ce53b1665918488255" />
+      <keyword name="cof_queue" id="mare::cof_queue::cof_queue" ref="group__cof__queue.html#gad5131ac770b43cf683d94d0f226f7b3a" />
+      <keyword name="cof_queue" id="mare::cof_queue::cof_queue" ref="group__cof__queue.html#gaadd335fdaa2350948c7fc645d6dbdec1" />
+      <keyword name="push" id="mare::cof_queue::push" ref="group__cof__queue.html#gaf12603f21005d5cd7689e668e56fc939" />
+      <keyword name="pop" id="mare::cof_queue::pop" ref="group__cof__queue.html#ga4122d5a2427e3431d7c1aa7e55c207a8" />
+      <keyword name="size" id="mare::cof_queue::size" ref="group__cof__queue.html#gad0a7ec84d92075c9fd8b5ae025266080" />
+      <keyword name="_c" id="mare::cof_queue::_c" ref="group__cof__queue.html#gafc02d668b3a9bbc82b25365b442f74e4" />
+      <keyword name="Concurrent Obstruction-Free Stack" id="Concurrent Obstruction-Free Stack" ref="group__cof__stack.html" />
+      <keyword name="container_type" id="cof_stack::container_type" ref="group__cof__stack.html#ga2f05ee647e9a2115a338d221b64793cf" />
+      <keyword name="value_type" id="cof_stack::value_type" ref="group__cof__stack.html#gaa787627f98b7cbc882bf9c9b8cfa5a34" />
+      <keyword name="cof_stack" id="cof_stack::cof_stack" ref="group__cof__stack.html#ga1deca8623305592f5ac22bf0391c76e3" />
+      <keyword name="cof_stack" id="cof_stack::cof_stack" ref="group__cof__stack.html#gaff3d099c383cb63d1730885bad882409" />
+      <keyword name="push" id="cof_stack::push" ref="group__cof__stack.html#gaeaf256d06b3ba1c2fea6c3defa5ebb51" />
+      <keyword name="pop" id="cof_stack::pop" ref="group__cof__stack.html#ga1a1bd2080ce0e51f689736d83e613c3b" />
+      <keyword name="size" id="cof_stack::size" ref="group__cof__stack.html#ga713f6d5e2d3437a888bf112ba9c084f5" />
+      <keyword name="_c" id="cof_stack::_c" ref="group__cof__stack.html#gaa7b2e6a22548934c023f4a60f297419b" />
+      <keyword name="container_type" id="mare::cof_stack::container_type" ref="group__cof__stack.html#ga2f05ee647e9a2115a338d221b64793cf" />
+      <keyword name="value_type" id="mare::cof_stack::value_type" ref="group__cof__stack.html#gaa787627f98b7cbc882bf9c9b8cfa5a34" />
+      <keyword name="cof_stack" id="mare::cof_stack::cof_stack" ref="group__cof__stack.html#ga1deca8623305592f5ac22bf0391c76e3" />
+      <keyword name="cof_stack" id="mare::cof_stack::cof_stack" ref="group__cof__stack.html#gaff3d099c383cb63d1730885bad882409" />
+      <keyword name="push" id="mare::cof_stack::push" ref="group__cof__stack.html#gaeaf256d06b3ba1c2fea6c3defa5ebb51" />
+      <keyword name="pop" id="mare::cof_stack::pop" ref="group__cof__stack.html#ga1a1bd2080ce0e51f689736d83e613c3b" />
+      <keyword name="size" id="mare::cof_stack::size" ref="group__cof__stack.html#ga713f6d5e2d3437a888bf112ba9c084f5" />
+      <keyword name="_c" id="mare::cof_stack::_c" ref="group__cof__stack.html#gaa7b2e6a22548934c023f4a60f297419b" />
+      <keyword name="Data Sharing" id="Data Sharing" ref="group__chapter__data__sharing.html" />
+      <keyword name="Task Storage" id="Task Storage" ref="group__task__storage.html" />
+      <keyword name="pointer_type" id="mare::task_storage_ptr::pointer_type" ref="group__task__storage.html#a1c00ef99876f1ede20b560bd3bfd2431" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::task_storage_ptr::MARE_DELETE_METHOD" ref="group__task__storage.html#a6af38b5dc483a09e89a52947a2e2b2c7" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::task_storage_ptr::MARE_DELETE_METHOD" ref="group__task__storage.html#ae684e8e757961496811df0372b36858f" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::task_storage_ptr::MARE_DELETE_METHOD" ref="group__task__storage.html#aba037b460be18b4808c5215493313023" />
+      <keyword name="task_storage_ptr" id="mare::task_storage_ptr::task_storage_ptr" ref="group__task__storage.html#ab665415d418bbd0f0711025335bf13df" />
+      <keyword name="task_storage_ptr" id="mare::task_storage_ptr::task_storage_ptr" ref="group__task__storage.html#a46fc70aeb557adad94001e0cfecae4d1" />
+      <keyword name="task_storage_ptr" id="mare::task_storage_ptr::task_storage_ptr" ref="group__task__storage.html#a4b13aac8290985d373645222954ed4e3" />
+      <keyword name="get" id="mare::task_storage_ptr::get" ref="group__task__storage.html#adcb7b5ea4561cd61f19793b936c0cf6d" />
+      <keyword name="operator-&gt;" id="mare::task_storage_ptr::operator-&gt;" ref="group__task__storage.html#a8cc597f541f7497e7ff02d8966229c29" />
+      <keyword name="operator*" id="mare::task_storage_ptr::operator*" ref="group__task__storage.html#a6df0f4b8ef3382696feb35d8dff2aada" />
+      <keyword name="operator=" id="mare::task_storage_ptr::operator=" ref="group__task__storage.html#a6bb1c63777be7ec8c5d15be33dd6dc76" />
+      <keyword name="operator!" id="mare::task_storage_ptr::operator!" ref="group__task__storage.html#a2112a6e70d644b5b9e8ea1bd7033b605" />
+      <keyword name="operator==" id="mare::task_storage_ptr::operator==" ref="group__task__storage.html#afc85232124ce10ed9a890a253ab4d0ed" />
+      <keyword name="operator!=" id="mare::task_storage_ptr::operator!=" ref="group__task__storage.html#a2f1f5581e8f4052cdfebaacc81aafb9b" />
+      <keyword name="operator pointer_type" id="mare::task_storage_ptr::operator pointer_type" ref="group__task__storage.html#a26bda3939b5c49f24cfe9608acc881f3" />
+      <keyword name="operator bool" id="mare::task_storage_ptr::operator bool" ref="group__task__storage.html#ad588b02b4b79dc401de7a6852e31795f" />
+      <keyword name="init_key" id="mare::task_storage_ptr::init_key" ref="group__task__storage.html#a4bfd17a146876f763d0f772d3bd8ffcf" />
+      <keyword name="_key" id="mare::task_storage_ptr::_key" ref="group__task__storage.html#a05787535f23b23978a60950d71144208" />
+      <keyword name="Scoped Storage" id="Scoped Storage" ref="group__scoped__storage.html" />
+      <keyword name="_alloc" id="scoped_storage::_alloc" ref="group__scoped__storage.html#ga3032463f6a59569c5d510448c07f693d" />
+      <keyword name="scope_type" id="mare::scoped_storage_ptr::scope_type" ref="group__scoped__storage.html#a69c859288119140c2d9b6f56c423fc61" />
+      <keyword name="pointer_type" id="mare::scoped_storage_ptr::pointer_type" ref="group__scoped__storage.html#ab3c78c8c32947f5a580b84a697ebf34c" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::scoped_storage_ptr::MARE_DELETE_METHOD" ref="group__scoped__storage.html#a55f5f4d1f63b21fa036a3cf68d717de5" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::scoped_storage_ptr::MARE_DELETE_METHOD" ref="group__scoped__storage.html#aed3bc3cc7796e03cbadff9cf0c0cf3c9" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::scoped_storage_ptr::MARE_DELETE_METHOD" ref="group__scoped__storage.html#a6550a06bf2cdc30621f37deb30583177" />
+      <keyword name="MARE_DELETE_METHOD" id="mare::scoped_storage_ptr::MARE_DELETE_METHOD" ref="group__scoped__storage.html#abca292fcc69f0ed12e9f540f9ab53732" />
+      <keyword name="scoped_storage_ptr" id="mare::scoped_storage_ptr::scoped_storage_ptr" ref="group__scoped__storage.html#ae8e4729cfe281a9794cbca65beeaf92f" />
+      <keyword name="get" id="mare::scoped_storage_ptr::get" ref="group__scoped__storage.html#a6b591304c769d1a9172bb44e0b5d7367" />
+      <keyword name="operator-&gt;" id="mare::scoped_storage_ptr::operator-&gt;" ref="group__scoped__storage.html#a7554574e12538bd9c797ed10d10a09b6" />
+      <keyword name="operator*" id="mare::scoped_storage_ptr::operator*" ref="group__scoped__storage.html#a4f78f3ebdfee6bec6e168f54db35037e" />
+      <keyword name="operator!" id="mare::scoped_storage_ptr::operator!" ref="group__scoped__storage.html#a5d7aecbda3ef61e8854b20258aa66698" />
+      <keyword name="operator==" id="mare::scoped_storage_ptr::operator==" ref="group__scoped__storage.html#a3b07972b6c3e180879b4c032fee47488" />
+      <keyword name="operator!=" id="mare::scoped_storage_ptr::operator!=" ref="group__scoped__storage.html#a5395b0e5e95cb01f0a2a56a7abfb6d44" />
+      <keyword name="operator pointer_type" id="mare::scoped_storage_ptr::operator pointer_type" ref="group__scoped__storage.html#a074c0170f22ea3c0189203a470fa15de" />
+      <keyword name="operator bool" id="mare::scoped_storage_ptr::operator bool" ref="group__scoped__storage.html#a99a979aadeaea3945363e2b09f480550" />
+      <keyword name="init_key" id="mare::scoped_storage_ptr::init_key" ref="group__scoped__storage.html#a3c65eabebd7a84439dfb346afd0f8376" />
+      <keyword name="maybe_invoke_dtor" id="mare::scoped_storage_ptr::maybe_invoke_dtor" ref="group__scoped__storage.html#afcf1ce6789dc2c3afe316182355e0b93" />
+      <keyword name="_key" id="mare::scoped_storage_ptr::_key" ref="group__scoped__storage.html#af691f0c94dbd038da9da4209d6ed165b" />
+      <keyword name="_alloc" id="mare::scoped_storage_ptr::_alloc" ref="group__scoped__storage.html#ga3032463f6a59569c5d510448c07f693d" />
+      <keyword name="Scheduler Storage" id="Scheduler Storage" ref="group__scheduler__storage.html" />
+      <keyword name="allocator_type" id="mare::scheduler_storage_ptr::allocator_type" ref="group__scheduler__storage.html#a4d6cb96a460e79b22d1b59544cf2913a" />
+      <keyword name="scope_type" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::scope_type" ref="group__scoped__storage.html#a69c859288119140c2d9b6f56c423fc61" />
+      <keyword name="pointer_type" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::pointer_type" ref="group__scoped__storage.html#ab3c78c8c32947f5a580b84a697ebf34c" />
+      <keyword name="key_create" id="mare::scheduler_storage_ptr::key_create" ref="group__scheduler__storage.html#a91e65c92c8b3b77340c6d162263fb0e7" />
+      <keyword name="set_specific" id="mare::scheduler_storage_ptr::set_specific" ref="group__scheduler__storage.html#a2a59002360a986754f1720af6f8eba76" />
+      <keyword name="get_specific" id="mare::scheduler_storage_ptr::get_specific" ref="group__scheduler__storage.html#acda06c50b3a8f94f96bc3e77c92ea05f" />
+      <keyword name="MARE_DELETE_METHOD" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::MARE_DELETE_METHOD" ref="group__scoped__storage.html#a55f5f4d1f63b21fa036a3cf68d717de5" />
+      <keyword name="MARE_DELETE_METHOD" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::MARE_DELETE_METHOD" ref="group__scoped__storage.html#aed3bc3cc7796e03cbadff9cf0c0cf3c9" />
+      <keyword name="MARE_DELETE_METHOD" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::MARE_DELETE_METHOD" ref="group__scoped__storage.html#a6550a06bf2cdc30621f37deb30583177" />
+      <keyword name="MARE_DELETE_METHOD" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::MARE_DELETE_METHOD" ref="group__scoped__storage.html#abca292fcc69f0ed12e9f540f9ab53732" />
+      <keyword name="scoped_storage_ptr" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::scoped_storage_ptr" ref="group__scoped__storage.html#ae8e4729cfe281a9794cbca65beeaf92f" />
+      <keyword name="get" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::get" ref="group__scoped__storage.html#a6b591304c769d1a9172bb44e0b5d7367" />
+      <keyword name="operator-&gt;" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::operator-&gt;" ref="group__scoped__storage.html#a7554574e12538bd9c797ed10d10a09b6" />
+      <keyword name="operator*" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::operator*" ref="group__scoped__storage.html#a4f78f3ebdfee6bec6e168f54db35037e" />
+      <keyword name="operator!" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::operator!" ref="group__scoped__storage.html#a5d7aecbda3ef61e8854b20258aa66698" />
+      <keyword name="operator==" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::operator==" ref="group__scoped__storage.html#a3b07972b6c3e180879b4c032fee47488" />
+      <keyword name="operator!=" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::operator!=" ref="group__scoped__storage.html#a5395b0e5e95cb01f0a2a56a7abfb6d44" />
+      <keyword name="operator pointer_type" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::operator pointer_type" ref="group__scoped__storage.html#a074c0170f22ea3c0189203a470fa15de" />
+      <keyword name="operator bool" id="scoped_storage_ptr&lt; scheduler_storage_ptr, T, Allocator &gt;::operator bool" ref="group__scoped__storage.html#a99a979aadeaea3945363e2b09f480550" />
+      <keyword name="Thread Storage" id="Thread Storage" ref="group__thread__storage.html" />
+      <keyword name="allocator_type" id="mare::thread_storage_ptr::allocator_type" ref="group__thread__storage.html#ae5d9603e638ea271287b556cf5664f12" />
+      <keyword name="scope_type" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::scope_type" ref="group__scoped__storage.html#a69c859288119140c2d9b6f56c423fc61" />
+      <keyword name="pointer_type" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::pointer_type" ref="group__scoped__storage.html#ab3c78c8c32947f5a580b84a697ebf34c" />
+      <keyword name="key_create" id="mare::thread_storage_ptr::key_create" ref="group__thread__storage.html#a12ec8bd046152bd80416618341235400" />
+      <keyword name="set_specific" id="mare::thread_storage_ptr::set_specific" ref="group__thread__storage.html#a80bc12a6ceb5cfc2da75e44d07876710" />
+      <keyword name="get_specific" id="mare::thread_storage_ptr::get_specific" ref="group__thread__storage.html#af7b788faff3ab94c03ebe3b16d11d2d8" />
+      <keyword name="MARE_DELETE_METHOD" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::MARE_DELETE_METHOD" ref="group__scoped__storage.html#a55f5f4d1f63b21fa036a3cf68d717de5" />
+      <keyword name="MARE_DELETE_METHOD" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::MARE_DELETE_METHOD" ref="group__scoped__storage.html#aed3bc3cc7796e03cbadff9cf0c0cf3c9" />
+      <keyword name="MARE_DELETE_METHOD" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::MARE_DELETE_METHOD" ref="group__scoped__storage.html#a6550a06bf2cdc30621f37deb30583177" />
+      <keyword name="MARE_DELETE_METHOD" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::MARE_DELETE_METHOD" ref="group__scoped__storage.html#abca292fcc69f0ed12e9f540f9ab53732" />
+      <keyword name="scoped_storage_ptr" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::scoped_storage_ptr" ref="group__scoped__storage.html#ae8e4729cfe281a9794cbca65beeaf92f" />
+      <keyword name="get" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::get" ref="group__scoped__storage.html#a6b591304c769d1a9172bb44e0b5d7367" />
+      <keyword name="operator-&gt;" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::operator-&gt;" ref="group__scoped__storage.html#a7554574e12538bd9c797ed10d10a09b6" />
+      <keyword name="operator*" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::operator*" ref="group__scoped__storage.html#a4f78f3ebdfee6bec6e168f54db35037e" />
+      <keyword name="operator!" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::operator!" ref="group__scoped__storage.html#a5d7aecbda3ef61e8854b20258aa66698" />
+      <keyword name="operator==" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::operator==" ref="group__scoped__storage.html#a3b07972b6c3e180879b4c032fee47488" />
+      <keyword name="operator!=" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::operator!=" ref="group__scoped__storage.html#a5395b0e5e95cb01f0a2a56a7abfb6d44" />
+      <keyword name="operator pointer_type" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::operator pointer_type" ref="group__scoped__storage.html#a074c0170f22ea3c0189203a470fa15de" />
+      <keyword name="operator bool" id="scoped_storage_ptr&lt; thread_storage_ptr, T, Allocator &gt;::operator bool" ref="group__scoped__storage.html#a99a979aadeaea3945363e2b09f480550" />
+      <keyword name="Exceptions Reference API" id="Exceptions Reference API" ref="group__chapter__exceptions__doc.html" />
+      <keyword name="Exceptions" id="Exceptions" ref="group__exceptions.html" />
+      <keyword name="~mare_exception" id="mare::mare_exception::~mare_exception" ref="group__exceptions.html#aa06182316f833a07e284a606e2567cd9" />
+      <keyword name="what" id="mare::mare_exception::what" ref="group__exceptions.html#a1c96277aae5961da394dcecc49644936" />
+      <keyword name="error_exception" id="mare::error_exception::error_exception" ref="group__exceptions.html#a23a57dc4d1d0c33ba8ad7ecafb4bc4cb" />
+      <keyword name="message" id="mare::error_exception::message" ref="group__exceptions.html#a71d7b71cd23a2379307c06680a9b465e" />
+      <keyword name="what" id="mare::error_exception::what" ref="group__exceptions.html#adca40817f9c35ba9e5c50f211426a056" />
+      <keyword name="file" id="mare::error_exception::file" ref="group__exceptions.html#aa45f8a07010bde8af5a4cd9db9ac28ce" />
+      <keyword name="line" id="mare::error_exception::line" ref="group__exceptions.html#a0e64d118d208dc520b00a05ae9f23ad7" />
+      <keyword name="function" id="mare::error_exception::function" ref="group__exceptions.html#acc89fd053b8b0981eedb10d4f39e4661" />
+      <keyword name="type" id="mare::error_exception::type" ref="group__exceptions.html#a986ea7d4b51d13b6e384a0c7db048d29" />
+      <keyword name="~mare_exception" id="mare::mare_exception::~mare_exception" ref="group__exceptions.html#aa06182316f833a07e284a606e2567cd9" />
+      <keyword name="compiler_demangle" id="mare::error_exception::compiler_demangle" ref="group__exceptions.html#a79da30f21c5f67caae70361705ed712b" />
+      <keyword name="_message" id="mare::error_exception::_message" ref="group__exceptions.html#a649da120cd15aa51db5e37fbda2cb547" />
+      <keyword name="_long_message" id="mare::error_exception::_long_message" ref="group__exceptions.html#ac95ec606ad835ad86a6391e31e910ca3" />
+      <keyword name="_file" id="mare::error_exception::_file" ref="group__exceptions.html#a4809726cfb5dc83bdfdf34e7a4dcd0b1" />
+      <keyword name="_line" id="mare::error_exception::_line" ref="group__exceptions.html#ab7ba533ccbdf552950718bb0d9af5307" />
+      <keyword name="_function" id="mare::error_exception::_function" ref="group__exceptions.html#a5e93e1c228eede983fdd842d2247bd2d" />
+      <keyword name="_classname" id="mare::error_exception::_classname" ref="group__exceptions.html#abfe5b9ff05f60cd2f95d57e07a1afdc6" />
+      <keyword name="api_exception" id="mare::api_exception::api_exception" ref="group__exceptions.html#aa5bba3ec4859e7432b522081b1ac7767" />
+      <keyword name="error_exception" id="mare::error_exception::error_exception" ref="group__exceptions.html#a23a57dc4d1d0c33ba8ad7ecafb4bc4cb" />
+      <keyword name="message" id="mare::error_exception::message" ref="group__exceptions.html#a71d7b71cd23a2379307c06680a9b465e" />
+      <keyword name="what" id="mare::error_exception::what" ref="group__exceptions.html#adca40817f9c35ba9e5c50f211426a056" />
+      <keyword name="file" id="mare::error_exception::file" ref="group__exceptions.html#aa45f8a07010bde8af5a4cd9db9ac28ce" />
+      <keyword name="line" id="mare::error_exception::line" ref="group__exceptions.html#a0e64d118d208dc520b00a05ae9f23ad7" />
+      <keyword name="function" id="mare::error_exception::function" ref="group__exceptions.html#acc89fd053b8b0981eedb10d4f39e4661" />
+      <keyword name="type" id="mare::error_exception::type" ref="group__exceptions.html#a986ea7d4b51d13b6e384a0c7db048d29" />
+      <keyword name="~mare_exception" id="mare::mare_exception::~mare_exception" ref="group__exceptions.html#aa06182316f833a07e284a606e2567cd9" />
+      <keyword name="tls_exception" id="mare::tls_exception::tls_exception" ref="group__exceptions.html#aaf811d00de1a04a831e659ba6c8986e1" />
+      <keyword name="error_exception" id="mare::error_exception::error_exception" ref="group__exceptions.html#a23a57dc4d1d0c33ba8ad7ecafb4bc4cb" />
+      <keyword name="message" id="mare::error_exception::message" ref="group__exceptions.html#a71d7b71cd23a2379307c06680a9b465e" />
+      <keyword name="what" id="mare::error_exception::what" ref="group__exceptions.html#adca40817f9c35ba9e5c50f211426a056" />
+      <keyword name="file" id="mare::error_exception::file" ref="group__exceptions.html#aa45f8a07010bde8af5a4cd9db9ac28ce" />
+      <keyword name="line" id="mare::error_exception::line" ref="group__exceptions.html#a0e64d118d208dc520b00a05ae9f23ad7" />
+      <keyword name="function" id="mare::error_exception::function" ref="group__exceptions.html#acc89fd053b8b0981eedb10d4f39e4661" />
+      <keyword name="type" id="mare::error_exception::type" ref="group__exceptions.html#a986ea7d4b51d13b6e384a0c7db048d29" />
+      <keyword name="~mare_exception" id="mare::mare_exception::~mare_exception" ref="group__exceptions.html#aa06182316f833a07e284a606e2567cd9" />
+      <keyword name="abort_task_exception" id="mare::abort_task_exception::abort_task_exception" ref="group__exceptions.html#aae03da86302a6723d53a3e43dc54ab06" />
+      <keyword name="what" id="mare::abort_task_exception::what" ref="group__exceptions.html#a92601027407c938f4dc66f96f4d2a268" />
+      <keyword name="~mare_exception" id="mare::mare_exception::~mare_exception" ref="group__exceptions.html#aa06182316f833a07e284a606e2567cd9" />
+      <keyword name="_msg" id="mare::abort_task_exception::_msg" ref="group__exceptions.html#a40ba3c831d8f53216a76ae8ca9fef1d2" />
+      <keyword name="body_with_attrs_base_gpu" id="body_with_attrs_base_gpu" ref="classbody__with__attrs__base__gpu.html" />
+      <keyword name="mare::aligned_allocator" id="mare::aligned_allocator" ref="structmare_1_1aligned__allocator.html" />
+      <keyword name="size_type" id="mare::aligned_allocator::size_type" ref="structmare_1_1aligned__allocator.html#a33d2cdfea8f60ac61f86731c462dfe7d" />
+      <keyword name="pointer" id="mare::aligned_allocator::pointer" ref="structmare_1_1aligned__allocator.html#a4ede9b3115acb853f4a2b9a93f1ddff3" />
+      <keyword name="const_pointer" id="mare::aligned_allocator::const_pointer" ref="structmare_1_1aligned__allocator.html#ac686fac8d376125746e9771ccea95753" />
+      <keyword name="MARE_GCC_IGNORE_END" id="mare::aligned_allocator::MARE_GCC_IGNORE_END" ref="structmare_1_1aligned__allocator.html#a8fe47e4d42ff22dc7ae323fab306a787" />
+      <keyword name="aligned_allocator" id="mare::aligned_allocator::aligned_allocator" ref="structmare_1_1aligned__allocator.html#aa6eeaa97339f2e24bc5a1152f316a77e" />
+      <keyword name="aligned_allocator" id="mare::aligned_allocator::aligned_allocator" ref="structmare_1_1aligned__allocator.html#af900a3c4e6e7b79641d4bf4525e2b287" />
+      <keyword name="allocate" id="mare::aligned_allocator::allocate" ref="structmare_1_1aligned__allocator.html#a56a8739f81c1f26c46965ab9a4de5c5c" />
+      <keyword name="allocate" id="mare::aligned_allocator::allocate" ref="structmare_1_1aligned__allocator.html#a90cf919c89f94f11435509b14faf2f81" />
+      <keyword name="deallocate" id="mare::aligned_allocator::deallocate" ref="structmare_1_1aligned__allocator.html#acd248ad6e46975f2fd866360759c244c" />
+      <keyword name="elements" id="std::allocator::elements" ref="classstd_1_1allocator.html#a55f88dab1194d6b8a34e46017c4dfd79" />
+    </keywords>
+    <files>
+      <file>tabs.css</file>
+      <file>tab_a.png</file>
+      <file>tab_b.png</file>
+      <file>tab_h.png</file>
+      <file>tab_s.png</file>
+      <file>nav_h.png</file>
+      <file>nav_f.png</file>
+      <file>bc_s.png</file>
+      <file>doxygen.png</file>
+      <file>closed.png</file>
+      <file>open.png</file>
+      <file>bdwn.png</file>
+      <file>sync_on.png</file>
+      <file>sync_off.png</file>
+      <file>tabs.css</file>
+      <file>ftv2blank.png</file>
+      <file>ftv2doc.png</file>
+      <file>ftv2folderclosed.png</file>
+      <file>ftv2folderopen.png</file>
+      <file>ftv2ns.png</file>
+      <file>ftv2mo.png</file>
+      <file>ftv2cl.png</file>
+      <file>ftv2lastnode.png</file>
+      <file>ftv2link.png</file>
+      <file>ftv2mlastnode.png</file>
+      <file>ftv2mnode.png</file>
+      <file>ftv2node.png</file>
+      <file>ftv2plastnode.png</file>
+      <file>ftv2pnode.png</file>
+      <file>ftv2vertline.png</file>
+      <file>ftv2splitbar.png</file>
+      <file>is.css</file>
+      <file>custom.css</file>
+      <file>alignedallocator_8hh_source.html</file>
+      <file>attr_8hh_source.html</file>
+      <file>attrobjs_8hh_source.html</file>
+      <file>barrier_8hh_source.html</file>
+      <file>buffer_8hh_source.html</file>
+      <file>channel_8hh_source.html</file>
+      <file>cofdeque_8hh_source.html</file>
+      <file>cofqueue_8hh_source.html</file>
+      <file>cofstack_8hh_source.html</file>
+      <file>common_8hh_source.html</file>
+      <file>condition__variable_8hh_source.html</file>
+      <file>device_8hh_source.html</file>
+      <file>exceptions_8hh_source.html</file>
+      <file>gpukernel_8hh_source.html</file>
+      <file>gputask_8hh_source.html</file>
+      <file>group_8hh_source.html</file>
+      <file>index_8hh_source.html</file>
+      <file>mare_8h_source.html</file>
+      <file>mareptrs_8hh_source.html</file>
+      <file>mutex_8hh_source.html</file>
+      <file>patterns_8hh_source.html</file>
+      <file>powermanager_8hh_source.html</file>
+      <file>range_8hh_source.html</file>
+      <file>runtime_8hh_source.html</file>
+      <file>schedulerstorage_8hh_source.html</file>
+      <file>scopedstorage_8hh_source.html</file>
+      <file>sdf_8hh_source.html</file>
+      <file>sdfpr_8hh_source.html</file>
+      <file>task_8hh_source.html</file>
+      <file>taskstorage_8hh_source.html</file>
+      <file>threadstorage_8hh_source.html</file>
+      <file>revision_history.html</file>
+      <file>introduction.html</file>
+      <file>binaries.html</file>
+      <file>getstarted.html</file>
+      <file>userguide.html</file>
+      <file>tasks.html</file>
+      <file>groups.html</file>
+      <file>issues.html</file>
+      <file>patterns.html</file>
+      <file>pp.html</file>
+      <file>ip.html</file>
+      <file>sdf.html</file>
+      <file>heterogeneous_compute.html</file>
+      <file>citelist.html</file>
+      <file>group__chapter__init__doc.html</file>
+      <file>group__init__shutdown.html</file>
+      <file>group__interop.html</file>
+      <file>group__chapter__patterns__doc.html</file>
+      <file>group__patterns__doc.html</file>
+      <file>group__sdf__doc.html</file>
+      <file>group__chapter__tasks__doc.html</file>
+      <file>group__tasks__doc.html</file>
+      <file>group__tasks__creation.html</file>
+      <file>group__ranges__doc.html</file>
+      <file>group__execution.html</file>
+      <file>group__dependencies.html</file>
+      <file>group__grouping.html</file>
+      <file>group__sync.html</file>
+      <file>group__tasks__cancelation.html</file>
+      <file>group__attributes.html</file>
+      <file>group__chapter__groups__doc.html</file>
+      <file>group__groups__doc.html</file>
+      <file>group__groups__creation.html</file>
+      <file>group__groups__waiting.html</file>
+      <file>group__groups__cancel.html</file>
+      <file>group__chapter__power__doc.html</file>
+      <file>group__static__power__doc.html</file>
+      <file>group__dynamic__power__doc.html</file>
+      <file>group__chapter__heterogeneous__compute__doc.html</file>
+      <file>group__buffers__doc.html</file>
+      <file>group__gpu__tasks__creation.html</file>
+      <file>group__gpu__patterns.html</file>
+      <file>group__chapter__data__structures.html</file>
+      <file>group__cof__deque.html</file>
+      <file>group__cof__queue.html</file>
+      <file>group__cof__stack.html</file>
+      <file>group__chapter__data__sharing.html</file>
+      <file>group__task__storage.html</file>
+      <file>group__scoped__storage.html</file>
+      <file>group__scheduler__storage.html</file>
+      <file>group__thread__storage.html</file>
+      <file>group__chapter__exceptions__doc.html</file>
+      <file>group__exceptions.html</file>
+      <file>classbody__with__attrs__base__gpu.html</file>
+      <file>structmare_1_1aligned__allocator.html</file>
+      <file>structmare_1_1aligned__allocator-members.html</file>
+      <file>dir_b0bc191a0edc8fdae3a8350d5efe28f1.html</file>
+      <file>dir_fee575f580404996843cf55d4a8a21d6.html</file>
+      <file>dir_9854ed422bddbda845d9be18e5812dbc.html</file>
+      <file>dir_8750de328c925313db64f81477132452.html</file>
+      <file>dir_b77265646c2dc6852801fb72e68e45f2.html</file>
+      <file>dir_974fd5b3e0f8c484e99628735e9e8254.html</file>
+      <file>dir_2d402fa29e6cd3b6ca13957b8f90c436.html</file>
+      <file>dir_1dcd01091481739a08e0557cc0b23ccc.html</file>
+      <file>index.html</file>
+      <file>pages.html</file>
+      <file>usergroup0.html</file>
+      <file>usergroup1.html</file>
+      <file>usergroup2.html</file>
+      <file>usergroup3.html</file>
+      <file>usergroup4.html</file>
+      <file>usergroup5.html</file>
+      <file>usergroup6.html</file>
+    </files>
+  </filterSection>
+</QtHelpProject>

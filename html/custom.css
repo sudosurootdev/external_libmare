@@ -1,0 +1,29 @@
+#nav-sync {
+	display:none
+	
+}
+
+#nav-sync img {
+	display:none
+}
+
+#nav-sync img:hover {
+	display:none
+}
+
+
+.tabs {
+    background-image: url('tab_b.png');
+    width: 100%;
+    z-index: 101;
+    font-size: 13px;
+}
+
+.tabs2 {
+   display:none;
+}
+.tabs3 {
+   display:none;
+}
+
+

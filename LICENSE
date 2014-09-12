@@ -1,0 +1,531 @@
+SDK LICENSE AGREEMENT
+
+This SDK License Agreement (this “Agreement”) is an agreement between
+you and your company (collectively, “Licensee”), on the one hand, and
+QTI Technologies, Inc. (“QTI”), on the other hand, concerning
+Licensee's use of QTI'S MARE (Multicore Asynchronous Runtime
+Environment) SDK (Software Developer Kit).  BY ACCEPTING THIS
+AGREEMENT AS INDICATED BELOW YOU ACKNOWLEDGE AND AGREE THAT YOU HAVE
+READ THIS AGREEMENT, UNDERSTAND IT, ARE AUTHORIZED TO ENTER INTO IT ON
+BEHALF OF LICENSEE, AND THAT LICENSEE AGREES TO BE BOUND BY THE TERMS
+AND CONDITIONS OF THIS AGREEMENT.  IF LICENSEE DOES NOT AGREE TO THESE
+TERMS AND CONDITIONS, QTI IS UNWILLING TO AND DOES NOT AND WILL NOT
+LICENSE THE MARE SDK TO LICENSEE.  IF LICENSEE DOES NOT AGREE TO THESE
+TERMS AND CONDITIONS LICENSEE MAY NOT COMMENCE (AND IF COMMENCED, MUST
+DISCONTINUE) ANY INSTALLATION PROCESS AND SHALL NOT USE THE MARE SDK
+OR RETAIN ANY COPIES OF THE MARE SDK, EVEN IF LICENSEE HAS IN ANY
+MANNER COME INTO POSSESSION THEREOF.  ANY USE OR POSSESSION OF THE
+MARE SDK BY LICENSEE IS SUBJECT TO THE TERMS AND CONDITIONS SET FORTH
+IN THIS AGREEMENT.
+
+RECITALS
+
+QTI has developed the MARE SDK and the API User Guide and other
+documentation that is provided by QTI for use with the MARE SDK (the
+“Documentation”) (the MARE SDK and the Documentation are referred to
+collectively herein as the “Software”).  Licensee desires to license
+the MARE SDK to enable Licensee to develop an integrated application
+that is optimized for use on devices with multi-core processors
+(“Integrated Application”) in accordance with the terms and conditions
+of this Agreement (the “Permitted Use”).  In consideration of the
+mutual representations and promises contained herein, the receipt and
+sufficiency of which are hereby acknowledged, the parties hereby agree
+as follows:
+
+1. LICENSE GRANT.
+
+1.1 License to Software. Subject to and conditioned upon Licensee’s
+compliance with the Documentation and the terms and conditions of this
+Agreement, including the limitations, conditions, restrictions and
+obligations set forth below, QTI hereby grants to Licensee a personal,
+non-exclusive, non-sublicensable (except as expressly provided in
+Section 1.4 (Limited Sublicense Rights)), non-transferable, revocable,
+limited license under QTI’s copyrights in the Software, during the
+term of this Agreement, to (i) download, install and internally use
+the Software in machine-readable (i.e., object code) form solely for
+the Permitted Use, and (ii) distribute the Integrated Application in
+object code form only, including only the object code runtime and
+library components of the Software. Licensee may not use the Software
+and may not accept this Agreement if Licensee or any Licensee employee
+seeking to use the Software is barred from receiving the Software
+under the laws of the United States or any other country, including
+the countries in which Licensee and its employees are resident or in
+which Licensee or its employees use the Software. In addition to any
+additional software that QTI may provide pursuant to Section 1.5
+(Additional Software), the Software licensed hereunder includes the
+following:
+
+MARE Software Development Kit 
+• MARE Software Development Kit in binary form including library
+headers, runtime library, and build and configuration scripts.
+• Documentation including MARE API User Guide, MARE Reference Manual,
+MARE installation instructions, and tutorials.
+
+1.2 Documentation. Subject to and conditioned upon Licensee’s
+compliance with the terms and conditions of this Agreement, including
+the limitations, conditions, restrictions and obligations set forth
+below, Licensee may reproduce and use a reasonable number of copies of
+the Documentation on an internal basis only, and solely in support of
+Licensee’s Permitted Use of the Software. Distribution of the
+Documentation is prohibited without the express written permission of
+QTI.
+
+1.3 Third Party Licenses. The Software may contain third party
+programs, including but not limited to software licensed under open
+source terms. The license terms associated with those programs apply
+to Licensee’s use of them, and in some instances such programs cannot
+be used or further distributed without a license from the respective
+owner of such programs. Licensee shall be solely responsible to
+obtain, if necessary, a separate and independent license from such
+owners with respect to any such use. The delivery of the Software does
+not convey a license, nor imply any rights, to use third party
+programs. A separate and independent license for such use may be
+required and Licensee shall be solely responsible to verify whether
+such license is needed in conjunction with Licensee’s use of such
+third party programs.
+
+1.4 Limited Sublicense Rights. Subject to and conditioned upon
+Licensee’s compliance with the terms and conditions of this Agreement,
+including the limitations, conditions, restrictions and obligations
+set forth below, QTI hereby grants to Licensee a personal,
+non-exclusive, non-sublicensable, non-transferable, revocable, limited
+license under QTI’s copyrights in the MARE library and runtime
+components, during the term of this Agreement, to sublicense the MARE
+object code library and runtime files, solely as an integral part of
+the Integrated Application and solely to licensed recipients of the
+Integrated Application, subject to the following additional
+requirements: (a) Licensee shall not distribute the MARE library and
+runtime binary files except in object code form and as fully
+integrated into Licensee’s application(s), (b) Licensee’s sublicense
+must be no less protective of the Software and the rights and
+interests of QTI and its Affiliates than are the terms of this
+Agreement, and (c) Licensee shall not make any representations,
+warranties, or undertake (or attempt to undertake) any obligations on
+behalf of QTI or its Affiliates, and Licensee shall ensure that QTI
+and its Affiliates shall have no liability to Licensee’s
+sublicensees. For purposes of this Agreement, “Affiliate” means any
+person or entity which directly or indirectly Controls, is Controlled
+by, or is under common Control with such entity. The term “Control”
+means the possession, directly or indirectly, of the power to direct
+or cause the direction of the management and policies of a person or
+entity, whether through the ownership of more than fifty percent (50%)
+of voting securities, by contract or otherwise.
+
+1.5 Additional Software. QTI hereby reserves the right to provide or
+otherwise make available, at its discretion, additional software to
+Licensee from time to time. Any additional software or documentation
+that QTI provides to Licensee by express reference to this Agreement
+will be considered to be part of the Software or Documentation, as the
+case may be, and subject to all terms and conditions of this
+Agreement. By accepting, possessing or using such additional software
+or documentation, which shall include without limitation any related
+plug-ins as QTI may directly or indirectly distribute, Licensee agree
+that the terms of this Agreement will apply thereto.
+
+1.6 Bug Reports. Licensee is encouraged to report to QTI all bugs
+Licensee experiences or encounters with the Software and Licensee
+agrees that QTI shall have the right to use, without attribution or
+compensation to Licensee, all feedback (of any nature) which QTI
+receives or otherwise obtains from Licensee, in any form, to improve,
+enhance or modify the Software or otherwise.
+
+2.      RESTRICTIONS.
+
+2.1 Retention of Rights. Licensee acknowledges and agrees, on behalf
+of itself and its Affiliates, that nothing in this Agreement shall
+convey, assign or otherwise transfer to Licensee or any of its
+Affiliates any title or ownership rights in or to any of the Software
+or any intellectual property rights of QTI.  Except for the express
+copyright license rights granted to Licensee in Section 1 of this
+Agreement, no other rights under any intellectual property are granted
+by QTI under or as a result of this Agreement (whether expressly,
+impliedly, by virtue of estoppel or exhaustion, or otherwise).
+Licensee acknowledges and agrees, on behalf of itself and its
+Affiliates, that neither the delivery of the Software nor any
+provision of this Agreement will be deemed or construed to grant
+(whether expressly, impliedly, by virtue of estoppel or exhaustion, or
+otherwise) any right, license, authority to infringe, or immunity from
+infringement liability under or to: (i) any patents of QUALCOMM
+Incorporated or any of its Affiliates, (ii) any other intellectual
+property rights of (a) any Affiliate of QUALCOMM Incorporated (other
+than QTI) or (b) QUALCOMM Incorporated, or (iii) any intellectual
+property rights of QTI covering or relating to any technology
+(including, without limitation, any product or invention) not embodied
+solely in the Software.  Licensee acknowledges and agrees, on behalf
+of itself and its Affiliates, that (a) this Agreement does not modify
+or abrogate any obligations that Licensee or any of its Affiliates has
+under any license or other agreement with QUALCOMM Incorporated,
+including, without limitation, any obligation to pay any royalties,
+and (b) Licensee will not, and will ensure that each of its Affiliates
+do not, contend that it has obtained any right, license, authority to
+infringe, or immunity from infringement liability with respect to any
+patents of QUALCOMM Incorporated or any of its Affiliates under or as
+a result of this Agreement (whether expressly, impliedly, by virtue of
+estoppel or exhaustion, or otherwise).
+
+2.2 Use Restrictions. Except as expressly provided in Section 1
+(License Grant) above, Licensee may make a single copy the Software
+only for backup purposes, provided that Licensee reproduces all
+copyright and other proprietary notices that are on the original copy
+of the Software on any copy of the Software that is made. Licensee
+shall not, and shall not authorize or otherwise permit any third party
+to, incorporate, link, distribute or use any third party software or
+code in conjunction with (i) the Software (ii) any software, products,
+documentation, content or other materials developed using the
+Software, nor (iii) any derivative works that Licensee makes using the
+source code portions of the Software (if any), in such a way that: (a)
+creates, purports to create or has the potential to create,
+obligations with respect to the Software or other QTI software,
+including without limitation the distribution or disclosure of any
+source code; or (b) grants, purports to grant, or has the potential to
+grant to any third party any rights to or immunities under any
+intellectual property rights or proprietary rights of QTI or its
+Affiliates, including without limitation as such rights exist in or
+relate to the Software. Without limiting the generality of the
+foregoing, Licensee shall not incorporate, link, distribute or use (1)
+the Software or any other software provided by QTI, (2) any software,
+products, documentation, content or other materials developed using
+the Software, nor (3) any derivative works that Licensee makes using
+the Software (if any), with any code or software licensed under any
+version of the GNU General Public License (“GPL”), Affero General
+Public License (“AGPL”), Lesser General Public License (“LGPL”),
+European Union Public License (“EUPL”), Apple Public Source License
+(“APSL”), Common Development and Distribution License (“CDDL”), IBM
+Public License (“IPL”), Eclipse Public License (“EPL”), Mozilla Public
+License (“MPL”), or any other open source license, in any manner that
+could cause or could be interpreted or asserted to cause the Software
+or other QTI software (or any modifications thereto) to become subject
+to the terms of the GPL, AGPL, LGPL, EUPL, APSL, CDDL, IPL, EPL, MPL,
+or such other open source license. Licensee, and each party receiving
+Software or any copies thereof from Licensee, shall not receive any
+rights to use such Software or copies thereof in a manner that will
+cause any patents, copyrights or other intellectual property rights
+which are owned or controlled by QTI or any of its Affiliates (or for
+which QTI or any of its Affiliates has received license rights) to
+become subject to any encumbrance or terms and conditions of any third
+party or open source license (including, without limitation, any open
+source license listed on
+http://www.opensource.org/licenses/alphabetical) (each an “Open Source
+License”). These restrictions, limitations, exclusions and conditions
+shall apply even if QTI or any of its Affiliates becomes aware of or
+fails to act in a manner to address any violation or failure to comply
+therewith. Also, no act by QTI or any of its Affiliates that is
+undertaken under this Agreement as to any software or technology shall
+be construed as being inconsistent with the intent not to cause any
+patents, copyrights or other intellectual property rights which are
+owned or controlled by QTI or any of its Affiliates (or for which QTI
+or any of its Affiliates has received license rights) to become
+subject to any encumbrance or terms and conditions of any Open Source
+License.
+
+2.3 Additional Restrictions. Licensee will not: (i) reverse engineer,
+disassemble, decompile, or translate the Software, or otherwise
+attempt to derive the source code version of the Software, except if
+and only to the extent expressly permitted by applicable law; (ii) use
+the Software and/or Documentation or any portion thereof to create or
+develop any developer tools (including without limitation plug-ins and
+middleware) or any software other than an Integrated Application;
+(iii) make more copies of the Software and/or Documentation than
+specified in this Agreement or allowed by applicable law despite this
+limitation; (iv) transfer or assign this Agreement or any of the
+rights, duties or obligations hereunder; (v) except as expressly
+permitted hereby, rent, lease, loan or otherwise in any manner provide
+or distribute the Software and/or Documentation or any copy of thereof
+to any third party; (vi) access or use for any purpose any application
+protocol interface (API) such as the MARE APIs, except as expressly
+described in the Documentation; or (vii) except as expressly permitted
+under Section 1 (License Grant), reproduce, distribute, publicly
+perform, publicly display or create derivative works of or based on
+the Software and/or Documentation, or disclose, provide or otherwise
+transfer, in any manner, to any third party the Software,
+Documentation or any portion thereof. Licensee will not include in its
+Integrated Applications (y) any content or materials of any kind
+(text, graphics, images, photographs, video, sounds, etc.) that
+comprise, constitute or depict profanity, nudity, pornographic images
+or explicit sexual themes, or defamatory or libelous statements,
+material that infringes the intellectual property of any person or
+entity, material that infringes upon the privacy or data protection
+rights of any person, or material that is or could be considered to be
+illegal or objectionable, or (z) any malware, malicious or harmful
+code, program or other internal component (e.g., computer viruses,
+Trojan horses, “backdoors” etc.) that could damage, destroy or
+adversely affect other software, firmware, hardware, data, systems,
+services or networks. In addition, Licensee shall not use the Software
+and/or Documentation to create or develop any Integrated Application
+that invades, violates or infringes the copyrights, patent rights,
+trade secrets, trademark or service mark rights, privacy, publicity,
+or any other rights of any person or entity, or that libels or defames
+any third party. Licensee further agrees not to design or develop any
+Integrated Application based on the use of the Software in a manner so
+as to, or with the objective to, damage any wireless device, computer,
+network, or any feature or function of a wireless device, computer or
+network based on the use of such application. Licensee represents and
+warrants that it has obtained all necessary permissions and licenses
+from all holders of intellectual property rights, if any, in material
+or code appearing, used or recorded in any Integrated Application that
+Licensee creates or develops with the Software and/or
+Documentation. The license to the Software and Documentation granted
+to Licensee hereunder is solely for the Permitted Use and the Software
+and Documentation shall not be used for any other purpose or use.
+
+2.4 Additional Services and Functions. No fees are due under this
+Agreement for the use of the Software in connection with the
+development, distribution and demonstration of the Integrated
+Application in accordance with the terms of this Agreement. Licensee
+acknowledge that certain optional services may currently or in the
+future be provided by QTI, QTI’s Affiliates, and/or service providers,
+and access to such services may be licensed separately and may include
+separate charges for use.
+
+3.  CONFIDENTIALITY; NO SUPPORT. Licensee hereby acknowledges and
+agrees that the Software, along with the accompanying Documentation
+and related information, are confidential and proprietary to
+QTI. Except as expressly permitted in this Agreement, Licensee shall
+not disclose, or permit the disclosure of, the Software and/or
+confidential Documentation in any form or any information relating to
+the Software and/or Documentation (including without limitation the
+results of use or testing) to any third party without QTI’s prior
+written permission; provided that, Licensee may otherwise generally
+make mention of and discuss the Software with others. Licensee further
+acknowledges and agrees that any unauthorized use or disclosure of the
+Software, confidential Documentation and/or such information may cause
+irreparable harm and significant injury to QTI that would be difficult
+to ascertain or quantify; accordingly Licensee agrees that QTI shall
+have the right to seek and obtain injunctive or other equitable relief
+to enforce the terms of this Agreement and without limiting any other
+rights or remedies that QTI may have. Also, Licensee acknowledges and
+agrees that the Software and Documentation are provided “AS IS,” that
+QTI is under no obligation to provide any form of technical or other
+support for the Software and/or Documentation, and that if QTI, in its
+sole discretion, chooses to provide any form of support or information
+relating to the Software and/or Documentation, such support and
+information shall be deemed confidential and proprietary to QTI and
+protected in accordance with this Section 3. Licensee shall not make
+any disclosure or public announcement relating to this Agreement or
+the subject matter hereof without the prior written approval of QTI.
+
+4.  DISCLAIMER OF WARRANTIES. LICENSEE EXPRESSLY ACKNOWLEDGES AND
+AGREES THAT THE USE OF THE SOFTWARE AND DOCUMENTATION IS AT LICENSEE’S
+SOLE RISK. THE SOFTWARE, DOCUMENTATION AND SUPPORT, IF ANY, ARE
+PROVIDED "AS IS" AND WITHOUT ANY WARRANTIES OF ANY KIND, WHETHER
+EXPRESS, IMPLIED, STATUTORY OR OTHERWISE. TO THE MAXIMUM EXTENT
+PERMITTED UNDER APPLICABLE LAW, QTI AND ITS AFFILIATES AND LICENSOR(S)
+(FOR EASE OF REFERENCE IN SECTIONS 4, 5, AND 6, QTI AND ITS AFFILIATES
+AND LICENSOR(S) SHALL BE COLLECTIVELY REFERRED TO AS QTI) EXPRESSLY
+DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY OR
+OTHERWISE, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NONINFRINGEMENT. QTI DOES NOT REPRESENT OR WARRANT THAT THE FUNCTIONS
+CONTAINED IN THE SOFTWARE WILL MEET LICENSEE’S REQUIREMENTS, OR THAT
+THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR
+THAT THE SOFTWARE OR ANY SERVICE ENABLED BY THE USE OF THE SOFTWARE
+WILL ALWAYS BE AVAILABLE, OR THAT DEFECTS IN THE SOFTWARE OR
+DOCUMENTATION WILL BE CORRECTED. FURTHERMORE, QTI DOES NOT WARRANT OR
+MAKE ANY REPRESENTATIONS REGARDING THE USE, OR THE RESULTS OF THE USE,
+OF THE SOFTWARE OR DOCUMENTATION IN TERMS OF ITS CORRECTNESS,
+ACCURACY, RELIABILITY, OR OTHERWISE. NO ORAL OR WRITTEN INFORMATION OR
+ADVICE GIVEN BY QTI OR ITS AUTHORIZED REPRESENTATIVES SHALL CREATE ANY
+REPRESENTATION OR WARRANTY OR IN ANY WAY INCREASE THE SCOPE OF ANY
+EXPRESS WARRANTY. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF
+IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY OR MAY BE
+LIMITED.
+
+5.  LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMITTED UNDER
+APPLICABLE LAW, UNDER NO CIRCUMSTANCES, INCLUDING WITHOUT LIMITATION
+NEGLIGENCE, SHALL QTI, ITS AFFILIATES OR ANY OF THEIR RESPECTIVE
+DIRECTORS, OFFICERS, EMPLOYEES OR AGENTS BE LIABLE FOR ANY INDIRECT,
+INCIDENTAL, SPECIAL, PUNITIVE, EXEMPLARY OR CONSEQUENTIAL DAMAGES
+(INCLUDING BUT NOT LIMITED TO ANY DAMAGES FOR LOSS OF BUSINESS
+PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION AND THE
+LIKE) ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR ANY
+DOWNLOAD, INSTALLATION OR USE OF, OR INABILITY TO USE, THE SOFTWARE
+AND/OR DOCUMENTATION, EVEN IF QTI HAS BEEN ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR
+EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE
+ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY OR MAY BE LIMITED.  QTI
+HAS NO OBLIGATION TO DEFEND, INDEMNIFY OR HOLD LICENSEE HARMLESS UNDER
+THIS AGREEMENT. IN NO EVENT SHALL QTI’S TOTAL AGGREGATE LIABILITY FOR
+ANY AND ALL DAMAGES, LOSSES, CLAIMS AND CAUSES OF ACTIONS (WHETHER IN
+CONTRACT, TORT, INCLUDING NEGLIGENCE, OR OTHERWISE) EXCEED ONE HUNDRED
+DOLLARS ($100 US) OR THE EQUIVALENT THEREOF IN ANY OTHER CURRENCY.
+
+6.  INDEMNITY. If an application is written by Licensee using any
+component of the Software and such application is used, distributed,
+or otherwise deployed, then Licensee agrees to indemnify and hold QTI,
+its Affiliates and each of their respective officers, directors,
+employees and successors and assigns (each, a “QTI Indemnitee”)
+harmless from and against any and all claims, demands, causes of
+action, losses, liabilities, damages, costs and expenses, incurred or
+otherwise suffered by each QTI Indemnitee (including but not limited
+to costs of defense, investigation and reasonable attorneys’ fees)
+arising out of, resulting from or related to (i) any use, reproduction
+or distribution of the Software, as modified or integrated by
+Licensee, which causes an infringement of any patent, copyright,
+trademark, trade secret, or other intellectual property, publicity or
+privacy right of any third party arising in any jurisdiction anywhere
+in the world, except and solely to the extent such infringement is
+caused by the unmodified Software, or portions thereof, as supplied to
+Licensee by QTI under this Agreement, (ii) the download, distribution,
+installation, storage, execution, use or transfer of such software,
+products, documentation, content, materials or derivative works by any
+person or entity except and solely to the extent such harm is caused
+by the unmodified Software, or portions thereof, as supplied to
+Licensee by QTI under this Agreement, (iii) any physical or electronic
+harm caused to persons, property, equipment, software, hardware,
+firmware, or data in whole in part by any software, documentation, or
+related materials distributed by or on behalf of Licensee in
+connection with this Agreement, and (iv) any breach of this Agreement
+by Licensee. As requested by QTI, Licensee agrees to defend each QTI
+Indemnitee in connection with any third party claims, demands, or
+causes of action resulting from, arising out of or in connection with
+any of the foregoing.
+
+7.  TERM AND TERMINATION. This Agreement shall be effective upon
+acceptance by Licensee and shall continue until it expires or is
+earlier terminated. Expiration of this Agreement shall occur upon QTI
+designating the Software as at the end of its life or QTI otherwise
+withdrawing the software from distribution.  Licensee may terminate
+this Agreement at any time by deleting and destroying all copies of
+the Software and all related information in Licensee’s possession or
+control, provided that Licensee also informs QTI in writing at that
+time of such termination. This Agreement terminates immediately and
+automatically, with or without notice, if Licensee fails to comply
+with any provision hereof. Additionally, QTI may at any time terminate
+this Agreement, either with or without cause, upon notice to
+Licensee. Upon termination Licensee must delete or destroy all copies
+of the Software and Documentation in Licensee’s possession, and the
+license and other rights granted to Licensee in this Agreement shall
+terminate. Sections 1.5, 1.6, and 2 through 14 shall survive the
+termination of this Agreement.
+
+8.  EXPORT COMPLIANCE ASSURANCES. Licensee acknowledges that all
+hardware, software, source code and technology (collectively,
+“Products”) obtained from QTI are subject to the US government export
+control and economic sanctions laws, including the Export
+Administration Regulations (“EAR”, 15 CFR 730 et seq.,
+http://www.bis.doc.gov/ ) administered by the Department of Commerce,
+Bureau of Industry and Security, and the Foreign Asset Control
+Regulations (31 CFR 500 et seq.,
+http://www.treas.gov/offices/enforcement/ofac/) administered by the
+Department of Treasury, Office of Foreign Assets Control
+(“OFAC”). Licensee assures that Licensee and its Affiliates will not
+directly or indirectly export, re-export, transfer or release
+(collectively, “export”) any Products or direct product thereof to any
+destination, person, entity or end use prohibited or restricted under
+US law without prior US government authorization to the extent
+required by regulation. The US government maintains embargoes and
+sanctions against the countries listed in Country Groups E: 1/2 of the
+EAR (Supplement 1 to part 740), currently Cuba, Iran, North Korea,
+Sudan and Syria but any amendments to these lists shall
+apply. Licensee agrees not to directly or indirectly employ any
+Product received from QTI in missile technology, sensitive nuclear or
+chemical biological weapons activities, or in any manner knowingly
+transfer any Product to any party for any such end use. Licensee shall
+not export Products listed in Supplement 2 to part 744 of the EAR for
+military end-uses, as defined in part 744.21, to the People’s Republic
+of China. Licensee shall not transfer any Product to any party listed
+on any of the denied parties lists or specially designated nationals
+lists maintained under said regulations without appropriate US
+government authorization to the extent required by
+regulation. Licensee acknowledges that other countries may have trade
+laws pertaining to import, use, export or distribution of Products,
+and that compliance with same is Licensee’s responsibility.
+
+9.  GOVERNMENT END USERS. If Licensee is acting on behalf of an agency
+or instrumentality of the U.S. government, the Software and
+Documentation, as applicable, are “commercial computer software" and
+"commercial computer software documentation" developed exclusively at
+private expense by QTI. Pursuant to FAR 12.212 or DFARS 227 7202 and
+their successors, as applicable, use, reproduction and disclosure of
+the Software is governed by the terms of this Agreement.
+
+10.  USE OF NAME AND LOGO. Licensee shall not display or make any use
+of QTI’s or its Affiliates’ names, marks or logos in connection with
+Licensee’s application without the prior written approval of
+QTI. Licensee agree that QTI and its Affiliates may include Licensee’s
+name and the graphical assets, screenshots, logos, trademarks and
+other digital assets (the “Graphical Assets”) that Licensee uses with
+its application or otherwise associates with its application, on QTI
+or other MARE-related website(s) and as part of MARE-related marketing
+materials.
+
+11.  DEMONSTRATION OF LICENSEE’S APPLICATIONS BY QTI. If an Integrated
+Application is written by Licensee or on Licensee’s behalf using any
+component of the Software and such Integrated Application is made
+available for download or distribution, then from and as of such date
+as Licensee submits such Integrated Application for, or otherwise
+permits or enables, such download or distribution, Licensee hereby
+grants QTI and its Affiliates a world-wide, assignable, non-exclusive,
+fully paid-up and royalty-free, perpetual right and license to use,
+distribute, publicly display and publicly perform, in each case for
+promotional and/or demonstration purposes, each such Integrated
+Application and accompanying documentation and Graphical Assets. Any
+such use by QTI or its Affiliates under the above terms shall be
+subject to payment of any applicable standard download, subscription
+or use fees otherwise generally applicable to the application when
+accessed by the general public, but otherwise any agreement, terms or
+conditions for such application shall be superseded by this section,
+and shall be inapplicable to the promotion and/or demonstration of the
+Integrated Application(s) as described above. Licensee may terminate
+the license it grants in this Section 11 on not less than thirty (30)
+days’ prior written notice to QTI (by nationally recognized courier
+delivery to Qualcomm Technologies, Inc., Attn. Legal Department / MARE
+Licensing, 5775 Morehouse Drive, San Diego, CA 92121), provided that
+such notice references this Agreement, clearly identifies the affected
+Integrated Application(s), and states that Licensee wishes to
+terminate the license granted under this Section 11 with respect to
+such Integrated Application(s).
+
+12.  GENERAL. This Agreement is governed and interpreted in accordance
+with the laws of the State of California, excluding its conflicts of
+law provisions.  The United Nations Convention on Contracts for the
+International Sale of Goods is expressly excluded and does not apply.
+Any claim, lawsuit or proceeding arising out of or related to this
+Agreement must be brought exclusively in a federal or state court
+located in San Diego County, California, and QTI and Licensee hereby
+consent to the jurisdiction and venue of such courts for such purpose.
+
+13.  ENTIRE AGREEMENT; AMENDMENT; LANGUAGE. This Agreement is the
+entire and exclusive agreement between QTI and Licensee with respect
+to the Software and Documentation and supersedes all prior agreements
+(whether written or oral) and other communications between QTI and
+Licensee with respect to the Software and Documentation. Except to the
+extent that QTI is expressly precluded by applicable law, QTI further
+reserves the right to make changes to this Agreement, including but
+not limited to as needed to reflect changes in business practices or
+to reflect changes in or required by law or otherwise, by providing
+Licensee with reasonable notice of the changes, which notice may be
+sent by mail, by e-mail, by facsimile, by update to the Software, by
+posting an updated version of this Agreement to
+http://developer.qualcomm.com/mare,, or by otherwise delivering such
+notice to Licensee. Licensee will be responsible for reviewing and
+becoming familiar with any and all such changes. If Licensee continues
+to use the Software or Documentation after notice of any changes has
+been provided or posted, Licensee shall be deemed to have accepted any
+and all such changes. Otherwise, this Agreement may be modified only
+by a written amendment executed by both Licensee and QTI. This
+Agreement is entered into solely in the English language, and if for
+any reason any other language version is prepared by any party, it
+shall be solely for convenience and the English version shall govern
+and control in all respects. If Licensee is located in the province of
+Quebec, Canada, the following applies: The parties hereby confirm they
+have requested this Agreement and all related documents are prepared
+in English. Les parties ont exige que le present contrat et tous les
+documents connexes soient rediges en anglais.
+
+14.  THIRD PARTY RIGHTS. Excepting the terms and rights applicable to
+QTI’s Affiliates and licensors as expressly stated herein (which terms
+and rights such QTI Affiliates and licensors shall be entitled to
+enforce as third party beneficiaries), the parties agree, and confirm
+their mutual intention, that neither this Agreement nor any of the
+terms of this Agreement will be enforceable by virtue of the Contract
+(Rights of Third Parties) Act 1999, or otherwise, by any person/entity
+not a direct party to it. Notwithstanding that any term of this
+Agreement may be or may become enforceable by a person who is not a
+party to this Agreement, the terms and conditions of this Agreement
+may be modified or amended, or this Agreement may be suspended,
+cancelled, rescinded or terminated by the parties as provided in
+Section 13 (Entire Agreement; Amendment; Language) without the consent
+of any such third party.
+
+v.20130818

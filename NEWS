@@ -1,0 +1,159 @@
+Apr 22, 2014 - MARE 0.11.0 "Jubilee Blue"
+    * Support for GPU offload to enable concurrent and heterogeneous execution
+    * Power management API for selected Qualcomm Devices
+    * Additional parallel programming patterns: Synchronous Data Flow
+    * Support for linear algebra routines; e.g., matrix-matrix multiply
+	  optimized for Snapdragon devices
+    * Adaptive pfor_each to load balance parallel for loops
+    * Aligned allocator for improved cache and memory performance
+    * Configuration support for Android and cmake
+    * Significant other performance improvements and several bug fixes
+
+Feb 25, 2014 - MARE 0.10.3 "Idiazabal"
+    * Ftrace based logger for group and task events
+
+Feb 14, 2014 - MARE 0.10.2 "BakedStilton"
+    * enable gemm for Android and Windows with Matric multiply example
+
+Feb 12, 2014 - MARE 0.10.1 "Stilton"
+
+    * Fix a few super minor typos in documentation.
+    * Uncomment invocation of dump() in imlogger shutdown()
+    * Plug leak in tlsptr
+    * Better NEON sgemm kernel
+    * Even better NEON sgemm kernel
+    * Fixes mm_tiled and mm_par_tiled (overlapping and wrong number of
+      tiles)
+    * Applies new kernel to gemm.cc
+    * Fixes test_gemm_params using wrong dimensions
+    * perf/mm.cc: enables testing of other alpha,beta values and
+      non-square A,C
+    * perf/mm.cc: fixes impossible default matrix dimensions for the
+      test
+
+Jan 29, 2014 - MARE 0.10.0 "Taleggio"
+
+    * Removes executable flag in some source code files
+    * Adds -Wundef and -Wshadow to configure and fixes a bunch more
+      warnings
+    * bug fix highlighted by -Wshadow warning
+    * Logging Infrastructure with basic logger
+    * Added In Memory Logger (imlogger)
+    * Removed global_wakeable
+    * Replace std::cout with MARE_LLOG
+    * Adding parallel sublattice perf tests
+    * More pforeach unittests
+    * Distributing meet databases across leaf groups
+    * A special group for pfor_each internal group
+    * Adding group_factory for creating groups
+    * Optimizing leaf/meet group construction
+    * Task Queue should always notify on push
+    * Added Concurrent Obstruction Free (COF) Deque
+    * Packaged version of sgemm
+    * Power Integration for QC devices with examples and Docs
+    * Reduce the test duration
+    * Qualcomm device checking
+    * Chksrc improvements
+    * Add example Make and JNI .dist files
+    * Android.mk Improvements
+
+Dec 06, 2013 - MARE 0.9.2  "Gjetost"
+
+    * Microsoft Compiler specific files have changed from "VS2012" to
+      "MSVC"
+    * MSVC specific headers have been integrated into include/mare
+    * Add std::allocator support to scoped_storage
+    * Add atomic sequence counter to log messages
+    * Fix: Support for Apple Clang __int128_t
+    * Bug Fixes
+
+Nov 20, 2013 - MARE 0.9.1  "Langress"
+
+    * Bug Fixes
+
+Nov 07, 2013 - MARE 0.9.0  "Hubbardston Blue Cow"
+
+    * Improved task support
+    * API change: MARE-aware mutexes
+    * API change: MARE-aware condition variables
+    * multiple (per-scheduler) task queues
+    * scoped task storage
+    * unlimited numbers of groups
+    * performance improvements
+    * new file: sdk-license-agreement.docx
+    * new binary installer
+    * remove experimental multi-ports
+
+Aug 21, 2013 - MARE 0.8.1  "Gouda"
+
+    * API change: runtime::init() and runtime::shutdown() can be called more
+                  than once.
+    * Bug Fixes.
+
+May 02, 2013 - MARE 0.8.0  "Fontainebleau"
+
+    * support for standard Google NDK r8e
+    * API change: blocking tasks
+    * API change: cancellation (also: individual tasks)
+    * API change: create_and_launch renamed to launch
+    * API change: create_task
+    * API change: group intersection
+    * API change: parallel patterns (mare/patterns.hh)
+    * API change: task attributes
+    * API change: namespace cleanup (exceptions moved to mare
+      namespace)
+    * API change: alignedatomic moved to mare::internal namespace
+    * API change: join_group must not be passed nullptr group
+    * API documentation, tutorials
+    * experimental: Multi-ports (not supported on VS2012)
+    * new function: mare::internal::yield
+    * new internal threadpool implementation
+    * new internal group representation
+    * memory debugging support (-DMARE_MEMORY_DEBUGGING)
+    * removed all usage of std::cout because of platform bugs in
+      multi-threaded use
+    * ARM: use processor realm (DMB ISH) in alignedatomic barriers
+    * enforce that runtime cannot be fork()ed between initialization
+      and shutdown
+    * new files: LICENSE, NOTICE
+    
+Dec 23, 2012 - MARE 0.7.0  "Edamer"
+
+    * Visual Studio 2012 support; needs latest 
+      Nov 2012 CTP release, see documentation
+    * Bug fixes
+    * Portability improvements
+    * Support for ARM Thumb2 mode
+    * Performance improvements
+
+Nov 17, 2012 - MARE 0.6  "Danablu"
+
+    * Performance and stability improvements
+    * Default number of MARE threads equals number of detected cores
+      (main thread is not a MARE thread)
+    * Efficient support for small numbers of groups
+    * Support for multiple Dualqueue instances
+    * perf test benchmark harness factored out as BeAT
+      (Benchmark Analysis Toolkit), new optional external dependency
+    * Support for 32-bit x86
+    * Support for more ARM flavors
+    * More unit tests
+
+Sep 04, 2012 - MARE 0.5  "Camembert"
+
+    * Initial release
+    * New and improved API for multicore tasks, futures, ports, and groups
+    * Optimized scheduler based on a novel concurrent dual queue
+    * Supported on Android and 64-bit x86 (Linux and Mac OS X) with either
+      LLVM or GCC toolchain
+    * Documentation with examples
+
+Jul 16, 2012 - MARE 0.4  "Brie"
+
+    * Proof of Concept
+    * Waiting on tasks
+
+Apr 17, 2012 - MARE 0.3  "Asiago"
+
+    * Proof of Concept
+    * Tasks and dependencies
